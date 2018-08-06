@@ -177,6 +177,9 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
+
+
+
             $('#owl_1').owlCarousel({
                 animateOut: 'fadeOut',
                 animateIn: 'fadeIn',

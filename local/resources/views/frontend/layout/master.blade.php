@@ -138,11 +138,11 @@
 
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
-                            <li><a href="">TRANG CHỦ</a></li>
-                            <li><a href="">GIỚI THIỆU</a></li>
-                            <li><a href="">HOẠT ĐỘNG</a></li>
-                            <li><a href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
-                            <li><a href="">LIÊN HỆ</a></li>
+                            <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"  href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
+                            <li><a class="tablinks" href="">GIỚI THIỆU</a></li>
+                            <li><a class="tablinks" href="">HOẠT ĐỘNG</a></li>
+                            <li><a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
+                            <li><a class="tablinks" href="">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -173,6 +173,11 @@
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         }
     });
+</script>
+<script>
+    function openCity(evt) {
+
+    }
 </script>
 {{--@yield('scripts')--}}
 
