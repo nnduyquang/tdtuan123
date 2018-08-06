@@ -138,10 +138,10 @@
 
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
-                            <li><a href="" class="active">TRANG CHỦ</a></li>
+                            <li><a href="">TRANG CHỦ</a></li>
                             <li><a href="">GIỚI THIỆU</a></li>
                             <li><a href="">HOẠT ĐỘNG</a></li>
-                            <li><a href="">TUYỂN DỤNG</a></li>
+                            <li><a href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
                             <li><a href="">LIÊN HỆ</a></li>
                         </ul>
                     </div>

@@ -173,7 +173,7 @@
                                             <span>Posted April3, 2018</span>
                                         </div>
                                         <div class="d-flex flex-column pl-1">
-                                            <a href="" class="text-center mr-1" style="line-height: 20px">CHI TIẾT</a>
+                                            <a href="{{URL::asset('/tuyen-dung-nv-bds.html')}}" class="text-center mr-1" style="line-height: 20px">CHI TIẾT</a>
                                             <a href="" class="text-center">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
