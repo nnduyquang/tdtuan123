@@ -129,7 +129,7 @@
                     <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt="" class="logo-bdstuan123 align-self-center">
                         <div class="main-font slogan-cty">
                             <p class="pb-1">TUYỂN DỤNG NHÂN VIÊN BĐS TUẤN 123</p>
-                            <span class="mr-3 text-danger">Môi giới bất động sản - Người bán hàng đỉnh cao</span>
+                            <span class="mr-3 text-danger">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
                         </div>
                     </div>
 

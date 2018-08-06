@@ -88,12 +88,12 @@
                         <div class="col-md-12">
                             {{--<h4 class="pt-3 pb-4">THÔNG TIN <span style="color:#0d95e8;">THÊM</span></h4>--}}
                         </div>
-                        <div class="col-md-3 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center d-flex flex-column">
                             <img src="{{URL::asset('images/icon/user.png')}}" alt=""
                                  style="width: 64px;height: auto;margin: auto">
                             <p><span style="color: red">1000+</span> HỒ SƠ</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center d-flex flex-column">
                             <img src="{{URL::asset('images/icon/apartments.png')}}" alt=""
                                  style="width: 64px;height: auto;margin: auto">
                             <p><span style="color: red">500+</span> DỰ ÁN</p>
@@ -142,136 +142,25 @@
     <div class="container-fluid main-font" id="parallax_slogan">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-center p-5">
-                    <h4>CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG TÔI!</h4>
+                <div class="col-md-12 text-center pt-5 pb-5">
+                    <h4 class="pl-lg-5 pr-lg-5 p-sm-2">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG
+                        TÔI!</h4>
                     <a href="">GỌI NGAY 0965.35.05.75</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <style>
-        #fe_h_nvtieubieu h4 {
-            position: relative;
-            font-size: 25px;
-            font-weight: 600;
-            position: relative;
-            width: fit-content;
-            margin: auto;
-            margin-bottom: 10px;
-            /*color: #0d95e8;*/
-        }
-
-        #fe_h_nvtieubieu h4:before {
-            position: absolute;
-            content: '';
-            height: 3px;
-            width: 58px;
-            bottom: 5px;
-            background-color: red;
-            left: 47%;
-            transform: translate(-50%,0%);
-            -ms-transform: skewX(50deg); /* IE 9 */
-            -webkit-transform: skewX(50deg); /* Safari */
-            transform: skewX(50deg); /* Standard syntax */
-        }
-
-        #fe_h_nvtieubieu h4:after {
-            position: absolute;
-            content: '';
-            bottom: 5px;
-            height: 3px;
-            width: 38px;
-            left: 28%;
-            -ms-transform: skewX(50deg); /* IE 9 */
-            -webkit-transform: skewX(50deg); /* Safari */
-            transform: skewX(50deg); /* Standard syntax */
-            background-color: black;
-        }
-
-        #fe_h_nvtieubieu p {
-            color: #6c757d;
-        }
-
-        .top-empl{
-            padding:0px 38px;
-        }
-
-        .top-employee-info{
-            position: relative;
-            margin: auto;
-            background-color: white;
-            padding-bottom: 30px;
-            transition: .3s;
-        }
-
-        .top-employee-info:before{
-            backface-visibility: hidden;
-            background: #fff none repeat scroll 0 0;
-            content: "";
-            display: block;
-            float: left;
-            height: 73px;
-            left: -2px;
-            position: absolute;
-            right: 0;
-            top: -34px;
-            transform: rotate(-7deg) skewX(-7deg);
-            -webkit-transform: rotate(-7deg) skewX(-7deg);
-            -ms-transform: rotate(-7deg) skewX(-7deg);
-            -o-transform: rotate(-7deg) skewX(-7deg);
-            width: 101%;
-            z-index: 0;
-        }
-
-        .top-employee-info p{
-            position: relative;
-            z-index: 9;
-            margin-bottom: 30px;
-        }
-
-        .top-employee-info a{
-            border: 1px solid #0d95e8;
-            padding: 8px 26px;
-            border-radius: 3px;
-            color: #1b1e21;
-            font-size: 14px;
-            font-weight: 500;
-        }
-
-        .top-empl:hover{
-            background-color: #1b1e21;
-        }
-    </style>
-
-    <div class="container-fluid main-font" id="fe_h_nvtieubieu">
-        <div class="container">
-            <div class="row pt-5 pb-5">
-                <div class="col-md-12 text-center">
-                    <h4 class="pb-3">NHÂN VIÊN <span style="color: red">TIÊU BIỂU</span></h4>
-                    <p style="width: 86%;margin: auto;margin-bottom: 30px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Aspernatur beatae commodi
-                        deleniti fugiat labore nam quae ullam velit veniam voluptatem? At commodi dicta earum
-                        et explicabo officia perspiciatis quo similique.</p>
-                </div>
-
-                <div class="col-md-4 d-flex flex-column top-empl">
-                    <img src="http://demo.templatepath.com/justice/demo/img/attorney/f-1.png" alt="" style="width: 100%;height: auto;margin: auto    ">
-                    <div class="top-employee-info text-center">
-                        <p>Mss PHU QUÂN / Manager Assistance</p>
-                        <a href="">XEM THÊM</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('frontend.home.NhanVienTieuBieu')
+    @include('frontend.home.CamNghiNhanVien')
+    @include('frontend.home.UngTuyenNhanh')
 @stop
 
 @section('java-scripts')
     <script type="text/javascript">
 
         $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
+            $('#owl_1').owlCarousel({
                 autoplay: true,
                 loop: true,
                 nav: false,
@@ -295,9 +184,35 @@
                     }
                 }
             })
+
+            var owl3 = $('#owl-3');
+            owl3.owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                dots:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{
+                        items:1,
+                        dots:true,
+                    },
+                    600:{
+                        items:2,
+                        dots:true,
+                    },
+                    1000:{
+                        items:3,
+                        dots:true,
+                    }
+                }
+            })
+
         });
 
-        var owl = $('.owl-carousel');
+        var owl = $('#owl_1');
         $('.customNextBtn').click(function () {
             owl.trigger('next.owl.carousel');
         })

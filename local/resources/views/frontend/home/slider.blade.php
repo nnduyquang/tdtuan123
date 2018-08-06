@@ -9,18 +9,30 @@
 
     .customPrevBtn {
         padding: 0px 0px;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+        line-height: 33px;
+        border-radius: 50%;
         left: 26px;
         z-index: 10;
-        /*background-color: rgba(255,255,255,0.8);*/
-        color: #055699;
+        background-color: rgba(255,255,255,0.8);
+        color: #6c757d;
+        text-shadow: 1px 1px 1px white;
     }
 
     .customNextBtn {
         padding: 0px 8px;
         z-index: 6;
         right: 0px;
-        /*background-color: rgba(255,255,255,0.8);*/
-        color: #055699;
+        width: 38px;
+        height: 38px;
+        text-align: center;
+        line-height: 33px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.8);
+        color: #6c757d;
+        text-shadow: 1px 1px 1px white;
     }
 
     #section0, #section1, #section2 {
@@ -57,10 +69,10 @@
     }
 </style>
 <div class="container-fluid position-relative p-0" style="min-height: 518px">
-    <div class="owl-carousel">
+    <div id="owl_1" class="owl-carousel">
         <div id="section0">
             <img src="http://tuyendungtuan123.vn/wp-content/uploads/2018/03/FB_IMG_1500278148188.jpg" alt="">
-            <span>THONG TIN SỐ 1</span>
+            <span style="color: white">THÔNG TIN SỐ 1</span>
         </div>
         <div id="section1">
             <img src="http://batdongsantuan123.vn/wp-content/uploads/2017/11/23157462_881179868703496_3275079133793583096_o-690x420.jpg" alt="">
