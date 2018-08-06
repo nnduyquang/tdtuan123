@@ -85,28 +85,28 @@
 
 
                     <div class="row pt-4" id="fe_h_ttthem">
-                        <div class="col-md-12">
+                        <div class="col-md-12" id="h_static">
                             {{--<h4 class="pt-3 pb-4">THÔNG TIN <span style="color:#0d95e8;">THÊM</span></h4>--}}
                         </div>
-                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center">
                             <img src="{{URL::asset('images/icon/user.png')}}" alt=""
                                  style="width: 64px;height: auto;margin: auto">
-                            <p><span style="color: red">1000+</span> HỒ SƠ</p>
+                            <p><span id="counter-number1" class="" style="color: red">1000+</span> HỒ SƠ</p>
                         </div>
-                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 mb-2 col-sm-6 col-6 text-center">
                             <img src="{{URL::asset('images/icon/apartments.png')}}" alt=""
                                  style="width: 64px;height: auto;margin: auto">
-                            <p><span style="color: red">500+</span> DỰ ÁN</p>
+                            <p><span style="color: red" id="counter-number2">500+</span> DỰ ÁN</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 col-sm-6 col-6 text-center">
                             <img src="{{URL::asset('images/icon/target.png')}}" alt=""
-                                 style="width: 64px;height: auto;margin: auto">
-                            <p><span style="color: red">2000+</span> NHÂN VIÊN</p>
+                                 style="width: 64px;height: auto;margin: auto;">
+                            <p><span style="color: red" id="counter-number3">2000+</span> NHÂN VIÊN</p>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-6 text-center d-flex flex-column">
+                        <div class="col-md-3 col-sm-6 col-6 text-center">
                             <img src="{{URL::asset('images/icon/winner.png')}}" alt=""
                                  style="width: 64px;height: auto;margin: auto">
-                            <p><span style="color: red">10+</span> GIẢI THƯỞNG</p>
+                            <p><span style="color: red" id="counter-number4">10+</span> GIẢI THƯỞNG</p>
                         </div>
                     </div>
                 </div>
@@ -127,9 +127,10 @@
             color: white;
             margin-bottom: 20px;
             text-shadow: 1px 1px 2px #002752;
+            font-family: 'Lalezar', cursive;
         }
 
-        #parallax_slogan a {
+        #parallax_slogan button {
             font-size: 20px;
             color: white;
             padding: 10px 20px;
@@ -143,9 +144,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center pt-5 pb-5">
-                    <h4 class="pl-lg-5 pr-lg-5 p-sm-2">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG
+                    <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG
                         TÔI!</h4>
-                    <a href="">GỌI NGAY 0965.35.05.75</a>
+                    <div class="row">
+                        <div class="col-md-4 mb-4">
+                            <button class="animated fadeIn" href="">
+                                <p>PHẠM THANH TUÂN<br>
+                                    0984 929 097 - 0908 074 446</p></button>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <button class="animated fadeIn" href="">
+                                <p>ÂN ĐỨC NHÂN <br>
+                                    0906 037 688 - 0166 699 899</p></button>
+                        </div>
+                        <div class="col-md-4">
+                            <button class="animated fadeIn" href="">
+                                <p>TRẦN MINH TÙNG<br>
+                                    0962 383 611 - 0963 185 377</p></button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,6 +178,8 @@
 
         $(document).ready(function () {
             $('#owl_1').owlCarousel({
+                animateOut: 'fadeOut',
+                animateIn: 'fadeIn',
                 autoplay: true,
                 loop: true,
                 nav: false,
@@ -223,6 +242,45 @@
             owl.trigger('prev.owl.carousel');
         })
 
+
     </script>
+
+    <script>
+
+        var waypoint = new Waypoint({
+            element: document.getElementById('h_static'),
+            handler: function () {
+                var options1 = {
+                    useEasing: true,
+                    useGrouping: false,
+                    separator: ',',
+                    decimal: '.',
+                    prefix: '',
+                    suffix: '+'
+                };
+                var options2 = {
+                    useEasing: true,
+                    useGrouping: false,
+                    separator: ',',
+                    decimal: '.',
+                    prefix: '',
+                    suffix: '%'
+                };
+                var numHs1 = new CountUp("counter-number1", 0, 1000, 0, 2,options1);
+                var numHs2 = new CountUp("counter-number2", 0, 500, 0, 2,options1);
+                var numHs3 = new CountUp("counter-number3", 0, 2000, 0, 2.2, options1);
+                var numHs4 = new CountUp("counter-number4", 0, 10, 0, 2,options1);
+                numHs1.start();
+                numHs2.start();
+                numHs3.start();
+                numHs4.start();
+                waypoint.disable();
+            },
+            offset: '85%'
+        })
+
+    </script>
+
+
 
 @stop

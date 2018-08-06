@@ -3,6 +3,7 @@
 <meta http-equiv="content-type" content="text/Html;charset=UTF-8"/>
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Lalezar|Sigmar+One" rel="stylesheet">
     <link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.carousel.min.css')}}" />
     <link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.theme.default.min.css')}}">
     <meta charset="utf-8">
@@ -13,6 +14,7 @@
     <meta name="description" content="@yield('description')">
     <meta name="viewport" content="width=device-width">
     {{ Html::style('css/core.common.css') }}
+    {{ Html::style('css/animate.css') }}
     {{ Html::style('css/core.frontend.css') }}
     {{ Html::style('css/frontend.css') }}
     @yield('styles')
@@ -55,6 +57,7 @@
         top: 100%;
         width: 100%;
         background-color: rgba(255,255,255,0.9);
+        transition: .3s;
     }
 
     div#menu_top .logo-bdstuan123{
@@ -159,7 +162,10 @@
 
 </div>
 {{ Html::script('js/core.common.js') }}
+{{ Html::script('js/noframework.waypoints.min.js') }}
+{{ Html::script('js/CountUp.js') }}
 {{ Html::script('js/core.frontend.js') }}
+{{ Html::script('js/scripts.js') }}
 <script src="{{URL::asset('js/OwlCarousel/dist/owl.carousel.min.js')}}"></script>
 <script type="text/javascript">
     $.ajaxSetup({
@@ -169,7 +175,7 @@
     });
 </script>
 {{--@yield('scripts')--}}
-{{ Html::script('js/scripts.js') }}
+
 <div class="callback d-lg-none d-md-none">
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>

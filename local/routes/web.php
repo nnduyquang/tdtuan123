@@ -4,6 +4,16 @@
 Route::get('/', function () {
     return view('frontend.home.index');
 });
+
+Route::get('/tuyen-dung-nv-bds.html', function () {
+    return view('frontend.tuyendung.index');
+});
+
+Route::get('/tuyen-dung.html', function () {
+    return view('frontend.danhmuccv.index');
+});
+
+
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 
 

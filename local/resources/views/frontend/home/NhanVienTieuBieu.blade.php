@@ -125,7 +125,7 @@
                     et explicabo officia perspiciatis quo similique.</p>
             </div>
 
-            <div class="col-md-4 mb-3 d-flex flex-column top-empl">
+            <div class="col-md-4 mb-3 top-empl">
                 <img src="http://demo.templatepath.com/justice/demo/img/attorney/f-1.png" alt=""
                      style="width: 100%;height: auto;margin: auto    ">
                 <div class="top-employee-info text-center">
@@ -134,7 +134,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 mb-3 d-flex flex-column top-empl">
+            <div class="col-md-4 mb-3 top-empl">
                 <img src="http://demo.templatepath.com/justice/demo/img/attorney/f-2.png" alt=""
                      style="width: 100%;height: auto;margin: auto    ">
                 <div class="top-employee-info text-center">
@@ -143,7 +143,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex flex-column top-empl">
+            <div class="col-md-4 top-empl">
                 <img src="http://demo.templatepath.com/justice/demo/img/attorney/f-3.png" alt=""
                      style="width: 100%;height: auto;margin: auto    ">
                 <div class="top-employee-info text-center">
