@@ -9,6 +9,11 @@ Route::get('/gioi-thieu-tuan-123.html', function () {
     return view('frontend.gioithieu.index');
 });
 
+Route::get('/hoat-dong.html', function () {
+    return view('frontend.hoatdong.index');
+});
+
+
 Route::get('/tuyen-dung-nv-bds.html', function () {
     return view('frontend.tuyendung.index');
 });

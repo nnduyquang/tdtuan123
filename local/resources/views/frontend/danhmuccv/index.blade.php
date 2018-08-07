@@ -144,6 +144,27 @@
         </div>
     </div>
 
+    <style>
+        div#title_bar h5{
+            font-size: 20px;
+            font-family: 'Lalezar', cursive;
+        }
+
+        div#title_bar h5 a{
+            color: black;
+        }
+    </style>
+
+    <div class="container-fluid pl-0 pt-4 pb-3 border-bottom shadow-sm " id="title_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h5><a href="{{URL::asset('/')}}">TRANG CHỦ</a> > TUYỂN DỤNG</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container-fluid main-font pt-5 pb-5" id="fe_danhmuccv_danhmucvitri">
         <div class="container">
@@ -152,7 +173,7 @@
                 <div class="col-md-9">
                     <div class="row">
                         <div class="col-12 p-0">
-                            <h5>TRANG CHỦ > CÁC VỊ TRÍ TUYỂN DỤNG</h5>
+                            <h5>CÁC VỊ TRÍ TUYỂN DỤNG</h5>
                         </div>
                         <div class="col-12">
                             @for ($i = 0; $i < 4; $i++)
