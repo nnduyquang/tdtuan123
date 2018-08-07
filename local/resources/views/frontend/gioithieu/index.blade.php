@@ -135,7 +135,7 @@
 
     </style>
 
-    <div class="container-fluid main-font animated fadeIn" id="fe_danhmuccv_banner">
+    <div class="container-fluid main-font animated fadeIn shadow-sm" id="fe_danhmuccv_banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 pt-5 pb-5">
@@ -151,16 +151,109 @@
 
     <style>
         div#title_bar h5{
-            font-size: 18px;
+            font-size: 20px;
             font-family: 'Lalezar', cursive;
+        }
+
+        div#title_bar h5 a{
+            color: black;
         }
     </style>
 
-    <div class="container-fluid" id="title_bar">
+    <div class="container-fluid pt-4 pb-3 border-bottom shadow-sm " id="title_bar">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h5><a href="">TRANG CHỦ</a> > GIỚI THIỆU</h5>
+                    <h5><a href="{{URL::asset('/')}}">TRANG CHỦ</a> > GIỚI THIỆU</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        #fe_gt_content h5{
+            position: relative;
+            font-size: 22px;
+            font-weight: 600;
+            width: fit-content;
+            font-family: 'Lalezar', cursive;
+
+        }
+
+        #fe_gt_content p{
+            line-height: 20px;
+        }
+
+        #fe_gt_content h5:before{
+            position: absolute;
+            content: '';
+            height: 1px;
+            width: 38%;
+            background-color: #0d95e8;
+            bottom: -1px;
+
+        }
+    </style>
+
+    <div class="container-fluid main-font pt-3 pb-5" id="fe_gt_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="pb-3 pt-5 border-bottom mb-4">GIỚI THIỆU VỀ CÔNG TY</h5>
+
+                            <p>Công ty Bất động sản Tuấn 123 hiện đang là đơn vị chuyên Mua, Bán,
+                                Cho thuê nhà, đất thổ cư trên toàn Hà Nội. Với đội ngũ Chuyên viên
+                                kinh doanh và Quản lý giàu kinh nghiệm, năng động. Chế độ đãi ngộ tốt nhất.</p>
+
+                            <br>
+
+                            <p>TUẤN 123, không chăm sóc nhưng luôn luôn bảo vệ người mua, người mua có quyền được
+                                biết mình sắp mua bất động sản ở đâu ? như thế nào ? và của ai ? </p>
+                            {{--<img src="{{URL::asset('images/bg/danhhieu.png')}}" alt="" style="width: 80%;height: auto">--}}
+                            <br>
+
+                            {{--<h6 style="font-size: 20px;font-weight: 600">BẢNG CỬU CHƯƠNG</h6>--}}
+
+                            <p>
+                                9 Điều tinh túy được đúc kết lại để giúp anh em Môi giới Tuấn 123 có bản lĩnh, sẵn sàng có lời nói và hành động ra tiền.
+                                <br>
+
+                                1. Kiến thức Olympia.​ <br>
+
+                                2. Bán cái mình có.<br>
+
+                                3. Biết truy vấn đến cùng.<br>
+
+                                4. Muốn xe đạp à đòi xe máy.<br>
+
+                                5. Luôn nghi ngờ à xử lý nghi ngờ.<br>
+
+                                6. Ký hợp đồng phải đọc kỹ trước khi ký.<br>
+
+                                7. Chính nhân quân tử, được cho đi là niềm vui.<br>
+
+                                8. Kiềng 3 chân: Ông chủ nhà – Ông môi giới – Ông khách mua.<br>
+
+                                9. Biết né đòn, biết đá bóng, biết đưa về thế mạnh của mình.</p>
+
+                            <br>
+
+                            <p>
+                                <span class="text-primary">CÔNG TY TNHH BẤT ĐỘNG SẢN TUẤN 123</span> <br>
+                                <span class="text-primary"> Địa chỉ: </span> Số 109 Trường Chinh, Đống Đa, Hà Nội. <br>
+                                <span class="text-primary"> Trụ sở miền Nam:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM. <br>
+
+                                <span class="text-danger">Hotline:</span> 04.6653.9953 – 0961.226.889 - 01292292999 <br>
+                            </p>
+
+                        </div>
+                        <div class="col-md-6 pt-5">
+                            <img class="border shadow-sm" src="{{URL::asset('images/bg/28279146_835846503254010_2229504394337144951_n.jpg')}}" alt="" style="width: 100%;height: auto;padding: 2px;">
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -222,6 +315,54 @@
     </div>
 
 
+    <style>
+        div#fe_gt_slogan{
+            background-image: url('images/bg/twitter.jpg');
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        div#fe_gt_slogan h5{
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Lalezar', cursive;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan p{
+            font-size: 19px;
+            font-weight: normal;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan h5:before{
+            position: absolute;
+            content: '';
+            height: 1px;
+            width: 38%;
+            background-color: #0d95e8;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+
+    <div class="container-fluid main-font" id="fe_gt_slogan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center pt-5 mt-5 mb-5">
+                    <h5 class="pt-5 pb-2 border-bottom">PHƯƠNG CHÂM LÀM VIỆC</h5>
+
+                    <p class="pt-3 pb-5 mb-5">Vừa làm vừa chơi - thảnh thơi như dân môi giới.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @stop
 
 @section('java-scripts')

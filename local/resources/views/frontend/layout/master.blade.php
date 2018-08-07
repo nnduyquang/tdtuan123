@@ -139,7 +139,7 @@
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
                             <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"  href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
-                            <li><a class="tablinks" href="">GIỚI THIỆU</a></li>
+                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
                             <li><a class="tablinks" href="">HOẠT ĐỘNG</a></li>
                             <li><a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
                             <li><a class="tablinks" href="">LIÊN HỆ</a></li>
