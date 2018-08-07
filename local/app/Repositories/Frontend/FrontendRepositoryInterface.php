@@ -18,7 +18,7 @@ interface FrontendRepositoryInterface
 
     public function getServiceInfo($categoryPath, $servicePath);
 
-    public function getFrontEndInfo();
+    public function getFrontendCommon();
 
     public function getMainPage($path);
 

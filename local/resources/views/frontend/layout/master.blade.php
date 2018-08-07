@@ -4,8 +4,6 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo|Lalezar|Sigmar+One" rel="stylesheet">
-    {{--<link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.carousel.min.css')}}" />--}}
-    {{--<link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.theme.default.min.css')}}">--}}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>@yield('title')</title>
@@ -23,49 +21,50 @@
 </head>
 
 <style>
-    .main-font{
+    .main-font {
         font-family: 'Fira Sans Condensed', sans-serif;
     }
 
-    #fe_h_welcome{
+    #fe_h_welcome {
         background-color: #055699;
     }
 
-    .sc-nw a i{
+    .sc-nw a i {
         margin-right: 10px;
         transition: .3s;
     }
 
-    .sc-nw a i.fa-facebook-f:hover{
+    .sc-nw a i.fa-facebook-f:hover {
         color: #0594d2;
     }
 
-    .sc-nw a i.fa-youtube:hover{
+    .sc-nw a i.fa-youtube:hover {
         color: #f01802;
     }
 
     .sc-nw a {
         color: white;
     }
+
     .sc-nw a:hover {
         text-decoration: none;
     }
 
-    div#menu_top{
+    div#menu_top {
         position: absolute;
         z-index: 10;
         top: 100%;
         width: 100%;
-        background-color: rgba(255,255,255,0.9);
+        background-color: rgba(255, 255, 255, 0.9);
         transition: .3s;
     }
 
-    div#menu_top .logo-bdstuan123{
+    div#menu_top .logo-bdstuan123 {
         height: 86px;
         width: auto;
     }
 
-    div.menu-content ul{
+    div.menu-content ul {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -76,25 +75,25 @@
         margin-right: -2px;
     }
 
-    div.menu-content ul li a{
+    div.menu-content ul li a {
         color: #055699;
         padding: 35px 16px;
         transition: .3s;
     }
 
-    div.menu-content ul li a:hover{
+    div.menu-content ul li a:hover {
         text-decoration: none;
         background-color: #055699;
         color: white;
     }
 
-    div.menu-content ul li a.active{
+    div.menu-content ul li a.active {
         text-decoration: none;
         background-color: #055699;
         color: white;
     }
 
-    .slogan-cty p{
+    .slogan-cty p {
         color: #055699;
         font-size: 26px;
         font-weight: 600;
@@ -129,7 +128,8 @@
                 <div class="col-md-12 d-lg-flex justify-content-lg-between">
 
                     <div class="d-flex align-items-center">
-                    <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt="" class="logo-bdstuan123 align-self-center">
+                        <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt=""
+                             class="logo-bdstuan123 align-self-center">
                         <div class="main-font slogan-cty">
                             <p class="pb-1">TUYỂN DỤNG NHÂN VIÊN BĐS TUẤN 123</p>
                             <span class="mr-3 text-danger">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
@@ -138,10 +138,13 @@
 
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
-                            <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"  href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
+                            <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"
+                                   href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
                             <li><a class="tablinks" href="">GIỚI THIỆU</a></li>
                             <li><a class="tablinks" href="">HOẠT ĐỘNG</a></li>
-                            <li><a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
+                            <li>
+                                <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"
+                                   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
                             <li><a class="tablinks" href="">LIÊN HỆ</a></li>
                         </ul>
                     </div>
@@ -153,13 +156,13 @@
 </div>
 
 <div id="blurrMe">
+    @include('frontend.common.menu.m-menu')
     @yield('slider')
     @yield('container')
 </div>
-
+@include('frontend.common.menu.m-sidebar')
 <div class="footer">
     @include('frontend.common.footer')
-
 </div>
 {{ Html::script('js/core.common.js') }}
 {{ Html::script('js/core.frontend.js') }}
@@ -177,12 +180,14 @@
     }
 </script>
 {{--@yield('scripts')--}}
-
+@php
+    $dataPhone=explode("-",$listFrontendCommon['configPhone']);
+@endphp
 <div class="callback d-lg-none d-md-none">
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
         <div class="phone_animation_circle_fill"></div>
-        <a href="tel:0962599482" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
                                                                             aria-hidden="true"></i></a>
     </div>
 </div>
@@ -190,12 +195,12 @@
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
         <div class="phone_animation_circle_fill"></div>
-        <a href="tel:0962599482" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
                                                                             aria-hidden="true"></i></a>
     </div>
 </div>
 <div class="mess_desk_bot d-none d-md-block">
-    <a href="tel:0902710212" class="hotline-master"> 0902.710.212
+    <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> {{$dataPhone[1]}}
     </a>
 </div>
 

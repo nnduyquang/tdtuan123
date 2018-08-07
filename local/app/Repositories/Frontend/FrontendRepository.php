@@ -83,13 +83,15 @@ class FrontendRepository implements FrontendRepositoryInterface
         return $data;
     }
 
-    public function getFrontEndInfo()
+    public function getFrontendCommon()
     {
         $data = [];
-        $configContact = Config::where('name', 'config-contact')->first();
-        $data['configContact'] = $configContact;
-        $categoryMain = CategoryItem::where('type', CATEGORY_PRODUCT)->where('level', MENU_GOC)->get();
-        $data['categoryMain'] = $categoryMain;
+        $configPhone=Config::where('name', 'config-phone')->first()->content;
+        $data['configPhone'] = removeSpecialCharacter($configPhone).'-'.$configPhone;
+//        $configContact = Config::where('name', 'config-contact')->first();
+//        $data['configContact'] = $configContact;
+//        $categoryMain = CategoryItem::where('type', CATEGORY_PRODUCT)->where('level', MENU_GOC)->get();
+//        $data['categoryMain'] = $categoryMain;
         return $data;
     }
 
