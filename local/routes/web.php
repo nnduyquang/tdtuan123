@@ -5,6 +5,10 @@ Route::get('/', function () {
     return view('frontend.home.index');
 });
 
+Route::get('/gioi-thieu-tuan-123.html', function () {
+    return view('frontend.gioithieu.index');
+});
+
 Route::get('/tuyen-dung-nv-bds.html', function () {
     return view('frontend.tuyendung.index');
 });
