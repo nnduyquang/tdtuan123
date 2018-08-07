@@ -4,8 +4,8 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Baloo|Lalezar|Sigmar+One" rel="stylesheet">
-    <link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.carousel.min.css')}}" />
-    <link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.theme.default.min.css')}}">
+    {{--<link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.carousel.min.css')}}" />--}}
+    {{--<link rel="stylesheet" href="{{URL::asset('js/OwlCarousel/dist/assets/owl.theme.default.min.css')}}">--}}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>@yield('title')</title>
@@ -189,7 +189,7 @@
                                                                             aria-hidden="true"></i></a>
     </div>
 </div>
-<div class="callback d-none d-md-block" style="right: 150px;bottom: -30px;left:inherit">
+<div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
         <div class="phone_animation_circle_fill"></div>
@@ -197,8 +197,8 @@
                                                                             aria-hidden="true"></i></a>
     </div>
 </div>
-<div class="mess_desk_bot d-none d-md-block" style="position: fixed;bottom:40px;right: 0px;">
-    <a href="tel:0962599482" style="display: block;width: 260px;height: 56px;background: url({{URL::to('images/nenhot.png')}}) no-repeat;text-align: center;padding-top: 10px;color:#fff;font-size: 20px;font-family: 'roboto-bold'">
+<div class="mess_desk_bot d-none d-md-block">
+    <a href="tel:0902710212" class="hotline-master"> 0902.710.212
     </a>
 </div>
 
