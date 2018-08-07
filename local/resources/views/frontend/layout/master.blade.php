@@ -100,6 +100,18 @@
         font-weight: 600;
     }
 
+    @media screen and (max-width: 1000px) and (min-width: 320px) {
+
+        .fe-l-master-slogan{
+            display: none;
+        }
+
+        .slogan-cty p{
+            line-height: 33px;
+        }
+
+    }
+
 </style>
 <body>
 <header id="header">
@@ -132,7 +144,7 @@
                     <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt="" class="logo-bdstuan123 align-self-center">
                         <div class="main-font slogan-cty">
                             <p class="pb-1">TUYỂN DỤNG NHÂN VIÊN BĐS TUẤN 123</p>
-                            <span class="mr-3 text-danger">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
+                            <span class="mr-3 text-danger fe-l-master-slogan">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
                         </div>
                     </div>
 

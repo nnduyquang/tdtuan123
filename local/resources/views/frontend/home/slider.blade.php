@@ -99,8 +99,32 @@
         background-image: url('http://tuyendungtuan123.vn/wp-content/uploads/2018/03/received_773151879536315.jpeg');
     }
 
+    @media screen and (max-width: 1000px) and (min-width: 320px) {
+        div#fe_h_slider{
+            margin-top: 98px;
+
+        }
+
+        .fe-h-utvt{
+            display: none;
+        }
+
+        .ung-tuyen h4{
+            font-size: 26px;
+            line-height: 22px;
+        }
+
+        .ung-tuyen h4 span{
+            font-size: 24px;
+        }
+
+        p.p-tnv{
+            display: none;
+        }
+    }
+
 </style>
-<div class="container-fluid main-font position-relative p-0">
+<div class="container-fluid main-font position-relative p-0" id="fe_h_slider">
     <div id="owl_1" class="owl-carousel">
         <div id="section0">
             <img src="{{URL::asset('images/bg/bg1.jpg')}}" alt="">
@@ -108,11 +132,11 @@
             <div class="ung-tuyen">
                 <h4 class="animated fadeInLeft"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
                     KINH DOANH BĐS</h4>
-                <p class="mb-5 animated fadeInDown slow">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
+                <p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
                     Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.
                     </p>
 
-                <a class="animated fadeInDown slow" href="">ỨNG TUYỂN VỊ TRÍ</a>
+                <a class="animated fadeInDown slow fe-h-utvt" href="">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
 
         </div>
@@ -121,30 +145,29 @@
             <img src="{{URL::asset('images/bg/bg1.jpg')}}" alt="">
 
             <div class="ung-tuyen">
-
-                <h4><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
+                <h4 class="animated fadeInLeft"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
                     KINH DOANH BĐS</h4>
-
-                <p class="mb-5 animated fadeInDown slow">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
+                <p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
                     Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.
                 </p>
 
-                <a href="">ỨNG TUYỂN VỊ TRÍ</a>
+                <a class="animated fadeInDown slow fe-h-utvt" href="">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
+
         </div>
         <div id="section2">
             <img src="{{URL::asset('images/bg/bg1.jpg')}}" alt="">
 
             <div class="ung-tuyen">
-                <h4><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
+                <h4 class="animated fadeInLeft"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
                     KINH DOANH BĐS</h4>
-
-                <p class="mb-5 animated fadeInDown slow">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
+                <p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>
                     Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.
                 </p>
 
-                <a href="">ỨNG TUYỂN VỊ TRÍ</a>
+                <a class="animated fadeInDown slow fe-h-utvt" href="">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
+
         </div>
     </div>
     {{--<div class="owl-nav">--}}
