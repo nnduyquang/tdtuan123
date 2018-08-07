@@ -99,6 +99,18 @@
         font-weight: 600;
     }
 
+    @media screen and (max-width: 1000px) and (min-width: 320px) {
+
+        .fe-l-master-slogan{
+            display: none;
+        }
+
+        .slogan-cty p{
+            line-height: 33px;
+        }
+
+    }
+
 </style>
 <body>
 <header id="header">
@@ -132,7 +144,7 @@
                              class="logo-bdstuan123 align-self-center">
                         <div class="main-font slogan-cty">
                             <p class="pb-1">TUYỂN DỤNG NHÂN VIÊN BĐS TUẤN 123</p>
-                            <span class="mr-3 text-danger">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
+                            <span class="mr-3 text-danger fe-l-master-slogan">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
                         </div>
                     </div>
 
@@ -140,8 +152,8 @@
                         <ul>
                             <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"
                                    href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
-                            <li><a class="tablinks" href="">GIỚI THIỆU</a></li>
-                            <li><a class="tablinks" href="">HOẠT ĐỘNG</a></li>
+                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
+                            <li><a class="{{ request()->is('hoat-dong.html') ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
                             <li>
                                 <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"
                                    href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
