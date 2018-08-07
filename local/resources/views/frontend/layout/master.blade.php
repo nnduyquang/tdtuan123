@@ -162,11 +162,8 @@
 
 </div>
 {{ Html::script('js/core.common.js') }}
-{{ Html::script('js/noframework.waypoints.min.js') }}
-{{ Html::script('js/CountUp.js') }}
 {{ Html::script('js/core.frontend.js') }}
 {{ Html::script('js/scripts.js') }}
-<script src="{{URL::asset('js/OwlCarousel/dist/owl.carousel.min.js')}}"></script>
 <script type="text/javascript">
     $.ajaxSetup({
         headers: {
