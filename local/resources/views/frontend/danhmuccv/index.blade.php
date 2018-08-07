@@ -133,7 +133,7 @@
 
     </style>
 
-    <div class="container-fluid main-font" id="fe_danhmuccv_banner">
+    <div class="container-fluid main-font animated fadeIn" id="fe_danhmuccv_banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 pt-5 pb-5">
@@ -275,6 +275,54 @@
 
 @stop
 @section('container')
+    <style>
+        div#fe_gt_slogan{
+            background-image: url('images/bg/twitter.jpg');
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        div#fe_gt_slogan h5{
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Lalezar', cursive;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan p{
+            font-size: 19px;
+            font-weight: normal;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan h5:before{
+            position: absolute;
+            content: '';
+            height: 1px;
+            width: 38%;
+            background-color: #0d95e8;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+
+    <div class="container-fluid main-font" id="fe_gt_slogan">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center pt-5 mt-5 mb-5">
+                    <h5 class="pt-5 pb-2 border-bottom">PHƯƠNG CHÂM LÀM VIỆC</h5>
+
+                    <p class="pt-3 pb-5 mb-5">Vừa làm vừa chơi - thảnh thơi như dân môi giới.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 @stop
 
 @section('java-scripts')
