@@ -19,7 +19,7 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <h4 class="pt-3 pb-3">THÔNG TIN VỀ <span style="color:#0d95e8;"> CHÚNG TÔI</span></h4>
+                <h4 class="pt-3 pb-3">THÔNG TIN VỀ <span style="color:#0d95e8;"> CÔNG TY TUẤN 123</span></h4>
                 <div class="description">
                     {!! $data['getIntroduce'] !!}
                 </div>

@@ -35,5 +35,10 @@ class FrontendController extends Controller
         return view('frontend.hoatdong_chitiet.index', compact('data'));
     }
 
+    public function getAllHoatDong(){
+        $data = $this->frontendRepository->getAllHoatDong();
+        return view('frontend.hoatdong.index', compact('data'));
+    }
+
 }
 

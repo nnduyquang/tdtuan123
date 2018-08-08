@@ -640,3 +640,7 @@ This class is added to the container
   color: #015b8e;
   line-height: 23px;
 }
+
+#h_2 .description p {
+  line-height: 1.5;
+}

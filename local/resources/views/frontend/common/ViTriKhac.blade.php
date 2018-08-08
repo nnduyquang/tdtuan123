@@ -62,23 +62,21 @@
             </div>
 
             <div id="owl-2" class="col-md-12 owl-carousel mb-5 owl-theme">
-                @for ($i = 0; $i < 4; $i++)
+                @foreach($data['allTuyenDung'] as $key=>$item)
                     <div class="fe-td-vitrikhac d-flex flex-column">
-                        <img src="{{URL::asset('images/uploads/nhan_vien_kd.jpg')}}" alt="" >
+                        {{ Html::image($item->image,'',array('style'=>'')) }}
                         <div class="pt-3 mb-3">
-                            <h6>VỊ TRÍ TUYỂN DỤNG KHÁC</h6>
-                            <span>Posted April3, 2018</span>
+                            <h6>{{$item->title}}</h6>
+                            {{--<span>Posted April3, 2018</span>--}}
 
-                            <p class="pt-3 pb-3 border-light border-top">Lorem ipsum dolor sit amet,
-                                Atque consequuntur dignissimos eligendi enim illum, ipsum iusto.
+                            <p class="pt-3 pb-3 border-light border-top">{!! $item->description !!}
                             </p>
 
-                            <a href="">XEM CHI TIẾT...!</a>
+                            <a href="{{URL::to('tuyen-dung/'.$item->path)}}">XEM CHI TIẾT...!</a>
                         </div>
                     </div>
-                @endfor
+                @endforeach
             </div>
-
         </div>
     </div>
 </div>
