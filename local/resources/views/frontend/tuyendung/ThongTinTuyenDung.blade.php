@@ -126,6 +126,7 @@
             <style>
                 #fe_TD_phucloi h4 {
                     position: relative;
+                    font-family: 'Lalezar', cursive;
                     /*width: fit-content;*/
                 }
 
@@ -134,9 +135,21 @@
                     content: '';
                     height: 1px;
                     width: 100%;
+                    background-color: #2a2a2a;
+                    bottom: 8px;
+                }
+
+                #fe_TD_phucloi h4:after {
+                    position: absolute;
+                    content: '';
+                    height: 3px;
+                    width: 30%;
+                    transform: skew(20deg);
+                    left: -2px;
                     background-color: #0d95e8;
                     bottom: 8px;
                 }
+
             </style>
 
             <div class="col-md-3" id="fe_TD_phucloi">

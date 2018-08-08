@@ -114,7 +114,7 @@
                     Chúng tôi luôn chào đón những thành viên mới về với đại gia đình TUẤN 123.
                 </p>
                 <ul class="main-font">
-                    <li><span class="text-primary"><i class="far fa-building"></i> ĐỊA CHỈ:</span> Địa chỉ: Số 109 Trường Chinh, Đống Đa, Hà Nội.</li>
+                    <li><span class="text-primary"><i class="far fa-building"></i> ĐỊA CHỈ:</span> Số 109 Trường Chinh, Đống Đa, Hà Nội.</li>
                     <li><span class="text-primary"><i class="far fa-building"></i> TRỤ SỞ MIỀN NAM:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM.</li>
                     <li><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</li>
                     <li><span class="text-primary"><i class="fas fa-phone-volume"></i> ÂN ĐỨC NHÂN:</span> 0906 037 688 - 0166 699 899.</li>

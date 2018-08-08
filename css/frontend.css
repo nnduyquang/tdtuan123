@@ -645,6 +645,15 @@ This class is added to the container
   line-height: 1.5;
 }
 
+.img-mr-tuyendung {
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 86%;
+  height: 80%;
+  left: 7%;
+  top: 4.5%;
+}
+
 #contact_info {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -656,7 +665,7 @@ This class is added to the container
 
 #contact_info .contact_top h3.title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #contact_info .contact_top p {
@@ -670,11 +679,11 @@ This class is added to the container
   margin-bottom: 20px;
 }
 
-#contact_info .contact_top ul {
+#contact_info div#contact_content ul {
   list-style: none;
 }
 
-#contact_info .contact_top ul li i {
+#contact_info div#contact_content ul li i {
   margin-right: 10px;
 }
 
