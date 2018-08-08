@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 07, 2018 lúc 11:50 AM
+-- Thời gian đã tạo: Th8 08, 2018 lúc 04:20 AM
 -- Phiên bản máy phục vụ: 10.1.31-MariaDB
 -- Phiên bản PHP: 7.0.29
 
@@ -51,7 +51,7 @@ CREATE TABLE `category_items` (
 
 INSERT INTO `category_items` (`id`, `name`, `path`, `description`, `image`, `image_mobile`, `level`, `parent_id`, `type`, `order`, `isActive`, `created_at`, `updated_at`, `seo_id`) VALUES
 (4, 'test1-1', 'test1-1', '<p>\r\n	test1-1\r\n</p>', 'images/uploads/images/gt_1.jpg', NULL, 1, 1, 0, 5, 1, '2018-07-17 02:24:13', '2018-07-17 02:24:13', 4),
-(6, 'Hoạt Động Công Ty', 'hoat-dong-cong-ty', NULL, '0', NULL, 0, NULL, 0, 1, 1, '2018-08-07 03:21:48', '2018-08-07 03:21:48', 8);
+(7, 'Hoạt Động Công Ty', 'hoat-dong-cong-ty', NULL, '0', NULL, 0, NULL, 0, 1, 1, '2018-08-08 01:23:55', '2018-08-08 01:23:55', 9);
 
 -- --------------------------------------------------------
 
@@ -65,6 +65,15 @@ CREATE TABLE `category_many` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `category_many`
+--
+
+INSERT INTO `category_many` (`category_id`, `item_id`, `created_at`, `updated_at`) VALUES
+(7, 1, '2018-08-08 01:33:50', '2018-08-08 01:33:50'),
+(7, 2, '2018-08-08 01:44:45', '2018-08-08 01:44:45'),
+(7, 3, '2018-08-08 01:51:44', '2018-08-08 01:51:44');
 
 -- --------------------------------------------------------
 
@@ -294,6 +303,15 @@ CREATE TABLE `posts` (
   `seo_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `posts`
+--
+
+INSERT INTO `posts` (`id`, `title`, `path`, `description`, `content`, `image`, `post_type`, `isActive`, `category_item_id`, `user_id`, `created_at`, `updated_at`, `seo_id`) VALUES
+(1, 'ĐẠI HỘI THỂ THAO TUẤN 123', 'dai-hoi-the-thao-tuan-123', '<p>\r\n	Hoạt động thể thao bên lề Tổng kết Quý II tại Thành phố Đà Nẵng đã diễn ra tốt đẹp với nhiều hạng mục: Chung kết bóng đá nam, kéo co, chuyền người và đặc biệt là chạy cự ly 10.000 m. Công ty Tuấn 123 thực sự đã nhuộm đỏ SVĐ Chi Lăng với tinh thần thể thao cao thượng\r\n</p>', '<p>\r\n	<strong>Thời gian:</strong>&nbsp;22/10/2017 &ndash; 26/10/2017.<br>\r\n	<strong>Địa điểm:</strong>&nbsp;Sân vận động Chi Lăng, Đà Nẵng, Việt Nam<br>\r\n	<strong>Các môn thi đấu:</strong><br>\r\n	<em>+ Bóng đá:</em><br>\r\n	+ Chạy tiếp sức 10.000m:<br>\r\n	&ndash; Giải nhất: 60.000.000VNĐ.<br>\r\n	<em>+ Ôm lấy nhau Tuấn 123:</em><br>\r\n	&ndash; Giải nhất: 20.000.000VNĐ.<br>\r\n	<em>+ Sức mạnh tập thể Tuấn 123:</em><br>\r\n	&ndash; Giải nhất: 20.000.000VNĐ.\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-9.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-13.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-12.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-10.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-11.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-15.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-16.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-17.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-18.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-19.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/bds-tuan-123-14.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>', 'images/uploads/images/hoatdong/bds-tuan-123-9.jpg', 1, 1, 7, 1, '2018-08-08 01:33:50', '2018-08-08 01:33:50', 10),
+(2, 'TUẤN 123 CHINH PHỤC ĐỈNH THÁI BÌNH DƯƠNG – SINGAPORE', 'tuan-123-chinh-phuc-dinh-thai-binh-duong-singapore', '<p>\r\n	Ngày 28/10/2017, Công ty Cổ phần Tuấn 123 &ndash; Bất động sản Tuấn 123 đã trở thành đoàn khách đông nhất trong lịch sử chào đón của bể bơi vô cực cao nhất thế giới nằm trên đỉnh tòa nhà khách sạn đắt giá nhất thế giới Marina Bay Sands.\r\n</p>', '<p>\r\n	123 thành viên xứng đáng nhất của Bất động sản Tuấn 123 sau nửa đầu năm 2017 Âm lịch đã cùng nhau chinh phục nơi đây &ndash; nơi mà được định danh là đỉnh Thái Bình Dương.\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/23154768_879568312197985_4878594429516424744_o-1-768x488.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p>\r\n	Đoàn đã tham quan nhiều địa danh nổi tiếng tại đây như: Phim trường Universal, Clark Quay, Thủy cung S.E.A Aquarium, Vườn Bách thảo Botanic Gardens&hellip;\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/1.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22829438_2121158151231289_1255443193623745877_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22879110_1869540126420300_2110560393_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22883631_2120310594649378_610659184_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22906480_772219586296211_1127679293_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22906692_1869540159753630_222834647_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22908283_10213784358270617_1592389535_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/22906717_1869540306420282_945891851_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>', 'images/uploads/images/hoatdong/23154768_879568312197985_4878594429516424744_o-1-768x488.jpg', 1, 1, 7, 1, '2018-08-08 01:44:44', '2018-08-08 01:44:44', 11),
+(3, 'Bất động sản Tuấn 123 – 4 năm một chặng đường.', 'bat-dong-san-tuan-123-4-nam-mot-chang-duong', '<h1>\r\n	Bất động sản Tuấn 123 &ndash; 4 năm một chặng đường.\r\n</h1>', '<p>\r\n	26/6/2017, một ngày đặc biệt của thương hiệu Bất động sản Tuấn 123, đánh dấu 4 năm góp mặt trên thị trường Bất động sản tại Hà Nội. Từ một văn phòng nhỏ ở ngõ 105 Láng Hạ, đến nay, cùng với sự phát triển thần tốc lên đến hơn 1200 thành viên, công ty đã chuyển đến văn phòng phủ kín 2 tầng của tòa nhà Hồng Hà, ngõ 109 Trường Chinh.\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19452932_803985479756269_4767196522106781395_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p>\r\n	Đến nay, với phương châm làm việc không thay đổi, bộ máy hỗ trợ ngày càng được cải thiện theo hướng chuyên nghiệp, văn hóa Công ty ngày càng được tôn vinh, tạo được dấu ấn trên thị trường Bất động sản Hà Nội. Không những vậy, giáo án đào tạo của Công ty ngày càng được bổ sung và hoàn thiện, thu hút được nguồn nhân lực từ nhiều lĩnh vực khác nhau, cùng tiến tới thanh lọc thị trường Bất động sản thổ cư tại Việt Nam.\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19467614_10209704845558961_722768898462892057_o-696x243.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p>\r\n	Trong buổi sinh nhật này, không những có sự tham dự của hơn 1200 anh chị em Bất động sản Tuấn 123, mà còn có sự tham dự của người thân, gia đình các Chuyên viên, lãnh đạo công ty Bất động sản Tuấn 123, cùng các thầy cô đang giảng dạy trong trường ĐH Sư Phạm Hà Nội.\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19452991_1996370760584303_4056525601611340131_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19488552_803985133089637_2505145769061537539_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	Để chào mừng sinh nhật 4 tuổi của Công ty, anh chị em Bất động sản Tuấn 123 đã chuẩn bị 4 tiết mục văn nghệ đặc sắc, ấn tượng, hoành tráng, đầy ý nghĩa. Dưới đây là một số hình ảnh của các tiết mục văn nghệ hoành tráng ấy!<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19429915_10209705007803017_733078871093940274_n.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19437244_10209705665379456_7010529168622423024_n.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19467603_10209705001882869_2161976640472218929_o.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	<img alt=\"\" src=\"http://localhost:8080/tdtuan123/images/uploads/images/hoatdong/19555028_10209705003722915_8820789447009291940_n.jpg\" style=\"width: 80%; height: 80%;\">\r\n</p>\r\n\r\n<p style=\"text-align: center;\">\r\n	&nbsp;\r\n</p>\r\n\r\n<p>\r\n	Bốn năm một chặng đường, từ một văn phòng nhỏ không ai biết đến, cho đến nay, Công ty Bất động sản Tuấn 123 đã vươn lên thành công ty Bất động sản thổ cư lớn nhất tại Hà Nội, với quy mô lớn, phong cách làm việc chuyên nghiệp, tạo dấu ấn trên thị trường Bất động sản Hà Nội.\r\n</p>\r\n\r\n<p>\r\n	Lời cuối, chúc cho Công ty Bất động sản Tuấn 123 một buổi tiệc sinh nhật đầy ý nghĩa, bước sang tuổi mới với nhiều bước tiến quan trọng, không chỉ phát triển ở khu vực Hà Nội, mà còn vươn tầm vững mạnh hơn nữa ở Thành phố Hồ Chí Minh cũng như các tỉnh thành khác của đất nước Việt Nam thân yêu.\r\n</p>', 'images/uploads/images/hoatdong/19488552_803985133089637_2505145769061537539_o.jpg', 1, 1, 7, 1, '2018-08-08 01:51:44', '2018-08-08 02:20:06', 12);
+
 -- --------------------------------------------------------
 
 --
@@ -382,7 +400,10 @@ CREATE TABLE `seos` (
 INSERT INTO `seos` (`id`, `seo_title`, `seo_description`, `seo_keywords`, `created_at`, `updated_at`) VALUES
 (4, 'test1-1', 'test1-1', 'test1,1', '2018-07-17 02:24:13', '2018-07-17 02:24:13'),
 (6, 'test bài viết', 'test bài viết', 'test bài viết', '2018-07-17 03:13:47', '2018-07-17 03:13:47'),
-(8, NULL, NULL, NULL, '2018-08-07 03:21:48', '2018-08-07 03:21:48');
+(9, NULL, NULL, NULL, '2018-08-08 01:23:55', '2018-08-08 01:23:55'),
+(10, NULL, NULL, NULL, '2018-08-08 01:33:50', '2018-08-08 01:33:50'),
+(11, NULL, NULL, NULL, '2018-08-08 01:44:44', '2018-08-08 01:44:44'),
+(12, NULL, NULL, NULL, '2018-08-08 01:51:44', '2018-08-08 01:51:44');
 
 -- --------------------------------------------------------
 
@@ -523,7 +544,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT cho bảng `category_items`
 --
 ALTER TABLE `category_items`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT cho bảng `category_permissions`
@@ -559,7 +580,7 @@ ALTER TABLE `permissions`
 -- AUTO_INCREMENT cho bảng `posts`
 --
 ALTER TABLE `posts`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `products`
@@ -577,7 +598,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT cho bảng `seos`
 --
 ALTER TABLE `seos`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT cho bảng `users`
