@@ -1,6 +1,6 @@
 @extends('frontend.layout.master')
 @section('title')
-    TUYÊN DỤNG - TUẤN 123 BẤT ĐỘNG SẢN TUẤN 123
+    BẤT ĐỘNG SẢN TUẤN 123 - TUYỂN DỤNG
 @stop
 @section('description')
     Trở thành một phần của BĐS Tuấn 123 để tận hưởng công việc theo cách của riêng bạn,
@@ -14,7 +14,6 @@
 
     @include('frontend.home.slider')
     @include('frontend.home.h_1')
-    {{--@include('frontend.home.h_1_copy')--}}
     @include('frontend.home.h_2')
 
 @stop

@@ -117,7 +117,7 @@
                     {!! $data['getDetailTuyenDung']->content !!}
                 </div>
                 <div class="mt-3" style="width: fit-content;margin: auto">
-                <a href="">ỨNG TUYỂN VỊ TRÍ</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSemOD1ouJ39yK9cz6JHhX9E_D6X29S9z54Eilu1BSN10KqilA/viewform?usp=sf_link">ỨNG TUYỂN VỊ TRÍ</a>
                 </div>
 
             </div>

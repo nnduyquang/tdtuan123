@@ -176,8 +176,8 @@
 <div class="footer">
     @include('frontend.common.footer')
 </div>
-{{ Html::script('js/ulti.js') }}
 {{ Html::script('js/core.common.js') }}
+{{ Html::script('js/ulti.js') }}
 {{ Html::script('js/core.frontend.js') }}
 {{ Html::script('js/scripts.js') }}
 <script type="text/javascript">
