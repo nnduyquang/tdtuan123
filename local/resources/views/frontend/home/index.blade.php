@@ -51,7 +51,7 @@
     <div class="container-fluid main-font" id="fe_h_ttct">
         <div class="container pt-5 pb-5">
             <div class="row">
-                <div class="col-md-4 p-3 position-relative">
+                <div class="col-md-4 p-3 position-relative wow fadeInLeft" data-wow-delay="500ms">
                     <img src="http://demo.templatepath.com/justice/demo/img/content/ceo.jpg" alt=""
                          style="width: 100%;height: auto;">
                     <div class="d-flex align-items-end"
@@ -137,7 +137,7 @@
                 <div class="col-md-12 text-center pt-5 pb-5">
                     <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG
                         TÔI!</h4>
-                    <div class="row">
+                    <div class="row wow bounceIn">
                         <div class="col-md-4 mb-4">
                             <button class="animated fadeIn" href="">
                                 <p>PHẠM THANH TUÂN<br>
@@ -239,7 +239,11 @@
 
     </script>
 
+
+
     <script>
+
+
 
         var waypoint = new Waypoint({
             element: document.getElementById('h_static'),

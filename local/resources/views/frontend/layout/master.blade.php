@@ -187,9 +187,9 @@
     });
 </script>
 <script>
-    function openCity(evt) {
 
-    }
+    new WOW().init()
+
 </script>
 {{--@yield('scripts')--}}
 @php
