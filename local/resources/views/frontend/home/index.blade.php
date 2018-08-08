@@ -50,8 +50,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center pt-5 pb-5">
-                    <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN HỆ VỚI CHÚNG
-                        TÔI!</h4>
+                    <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">BẠN ĐANG KHAO KHÁT CỐNG HIẾN - HÃY LIÊN HỆ NGAY VỚI CHÚNG TÔI</h4>
                     <div class="row wow bounceIn">
                         <div class="col-md-4 mb-4">
                             <button class="animated fadeIn" href="">

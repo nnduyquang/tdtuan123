@@ -27,12 +27,22 @@
     {!! Form::open(array('route' => 'config.general.store','method'=>'POST')) !!}
 
     @foreach($cauhinhs as $key=>$cauhinh)
+
         @if($cauhinh->name=='config-contact')
             <div class=" col-md-12">
                 <div class="form-group">
                     <label style="font-weight: bold">Nội Dung Liên Hệ:</label>
                     {!! Form::textarea('config-contact',$cauhinh->content, array('placeholder' => 'Nội Dung','id'=>'description-page','class' => 'form-control','rows'=>'10','style'=>'resize:none')) !!}
                     {{ Form::hidden('hd-config-contact', $cauhinh->content) }}
+                </div>
+            </div>
+        @endif
+        @if($cauhinh->name=='config-company-name')
+            <div class=" col-md-12">
+                <div class="form-group">
+                    <label style="font-weight: bold">Tên Công Ty:</label>
+                    {!! Form::text('config-company-name', $cauhinh->content, array('placeholder' => '','class' => 'form-control')) !!}
+                    {{ Form::hidden('hd-config-company-name', $cauhinh->content) }}
                 </div>
             </div>
         @endif

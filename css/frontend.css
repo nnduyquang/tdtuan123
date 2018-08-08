@@ -640,3 +640,84 @@ This class is added to the container
   color: #015b8e;
   line-height: 23px;
 }
+
+#h_2 .description p {
+  line-height: 1.5;
+}
+
+#contact_info {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#contact_info .contact_top {
+  line-height: 1.5 !important;
+}
+
+#contact_info .contact_top h3.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#contact_info .contact_top p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#contact_info .contact_top h4 {
+  font-size: 20px;
+  color: #0d51db;
+  margin-bottom: 20px;
+}
+
+#contact_info .contact_top ul {
+  list-style: none;
+}
+
+#contact_info .contact_top ul li i {
+  margin-right: 10px;
+}
+
+#contact_info .contact_bottom .input-group {
+  margin-bottom: 20px;
+}
+
+#contact_info .contact_bottom .input-group input, #contact_info .contact_bottom .input-group textarea {
+  border-radius: inherit;
+}
+
+#contact_info .contact_bottom button {
+  border-radius: inherit;
+  background-color: #0d51db;
+  color: white;
+  font-weight: bold;
+}
+
+#contact_info .contact_bottom button .successSending, #contact_info .contact_bottom button .loadingSending {
+  margin-left: 5px;
+}
+
+@media (max-width: 575.98px) {
+  #contact_info .contact_top {
+    margin-top: 20px;
+  }
+  #contact_info .contact_bottom .button-group {
+    text-align: center;
+  }
+}
+
+#introduce-info {
+  margin-top: 20px;
+}
+
+#introduce-info h1 {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: #0d51db;
+}
+
+#introduce-info .description {
+  margin-top: 20px;
+  line-height: 1.5 !important;
+}

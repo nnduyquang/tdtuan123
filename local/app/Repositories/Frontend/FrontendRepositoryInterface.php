@@ -13,4 +13,6 @@ interface FrontendRepositoryInterface
     public function getDetailTuyenDung($path);
 
     public function getDetailHoatDong($path);
+
+    public function getAllHoatDong();
 }

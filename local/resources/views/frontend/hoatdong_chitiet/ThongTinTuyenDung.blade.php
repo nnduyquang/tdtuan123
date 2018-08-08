@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 @endforeach
-                
+
             </div>
 
         </div>
@@ -172,36 +172,36 @@
     }
 </style>
 
-<div class="container-fluid" id="fe_hdct_CungChuyenMuc">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h5 class="pb-4">TIN CÙNG CHUYÊN MỤC</h5>
-            </div>
+{{--<div class="container-fluid" id="fe_hdct_CungChuyenMuc">--}}
+    {{--<div class="container">--}}
+        {{--<div class="row">--}}
+            {{--<div class="col-md-12">--}}
+                {{--<h5 class="pb-4">TIN CÙNG CHUYÊN MỤC</h5>--}}
+            {{--</div>--}}
 
-            <div class="col-md-12 pb-4">
-                <div class="row">
-                    @for ($i = 0; $i < 4; $i++)
-                        <div class="col-md-3 fe-td-vitrikhac d-flex flex-column">
+            {{--<div class="col-md-12 pb-4">--}}
+                {{--<div class="row">--}}
+                    {{--@for ($i = 0; $i < 4; $i++)--}}
+                        {{--<div class="col-md-3 fe-td-vitrikhac d-flex flex-column">--}}
 
-                            <img src="{{URL::asset('https://img-ovh-cloud.zszywka.pl/0/0170/5932-marina-bay-sands-singapur.jpg')}}"
-                                 alt="">
-                            <div class="pt-3 mb-3">
-                                <a href="">
-                                    <h6>TIN TỨC HOẠT ĐỘNG KHÁC</h6>
-                                    <span>Posted April3, 2018</span>
+                            {{--<img src="{{URL::asset('https://img-ovh-cloud.zszywka.pl/0/0170/5932-marina-bay-sands-singapur.jpg')}}"--}}
+                                 {{--alt="">--}}
+                            {{--<div class="pt-3 mb-3">--}}
+                                {{--<a href="">--}}
+                                    {{--<h6>TIN TỨC HOẠT ĐỘNG KHÁC</h6>--}}
+                                    {{--<span>Posted April3, 2018</span>--}}
                                     {{--<p class="pt-3"></p>--}}
                                     {{--<a class="mt-3" href="">XEM THÊM</a>--}}
-                                </a>
-                            </div>
+                                {{--</a>--}}
+                            {{--</div>--}}
 
-                        </div>
-                    @endfor
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+                        {{--</div>--}}
+                    {{--@endfor--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+{{--</div>--}}
 
 <style>
     #parallax_slogan {
@@ -238,8 +238,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center pt-5 pb-5">
-                <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">CẦN MỘT CÔNG VIỆC CHỦ ĐỘNG THỜI GIAN HÃY LIÊN
-                    HỆ VỚI CHÚNG TÔI !</h4>
+                <h4 class="pl-lg-5 pr-lg-5 p-sm-2 animated fadeInLeft">BẠN ĐANG KHAO KHÁT CỐNG HIẾN - HÃY LIÊN HỆ NGAY VỚI CHÚNG TÔI</h4>
 
 
                 <div class="row">

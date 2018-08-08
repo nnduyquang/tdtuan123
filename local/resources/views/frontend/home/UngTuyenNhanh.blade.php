@@ -41,7 +41,7 @@
 
     }
 
-    #fe_h_UngTuyenNhanh a{
+    #fe_h_UngTuyenNhanh #btnSendMail{
         font-size: 18px;
         padding: 10px 20px;
         border-radius: 3px;
@@ -67,20 +67,52 @@
 
                 <div class="row">
                     <div class="col-md-4">
-                        <input type="text" placeholder="Họ Và Tên">
+                        <div class="ip-name input-group">
+                            <input class="form-control input-text" placeholder="Tên Của Bạn" name="name" type="text"
+                                   value="">
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <input type="text" placeholder="Số điện thoại">
+                        <div class="ip-phone input-group">
+                            <input class="form-control input-text" placeholder="Số Điện Thoại" name="phone" type="text"
+                                   value="">
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <input type="text" placeholder="Email liên hệ">
+                        <div class="ip-email input-group">
+                            <input class="form-control input-text" placeholder="Email" name="email" type="text" value="">
+                            <div class="invalid-feedback">
+                                Please choose a Email.
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-12">
-                        <textarea class="p-3 mb-5" rows="6" cols="50" placeholder="Vị trí ứng tuyển, và sơ lược bản thân" style="width: 100%;border-radius: 3px"></textarea>
+                        <div class="ip-contentMail input-group">
+                    <textarea class="form-control input-area p-3 mb-5" placeholder="Vị trí ứng tuyển, và sơ lược bản thân" name="contentMail" cols="50"
+                              rows="6"></textarea>
+                            <div class="invalid-feedback">
+                                Please choose a Email.
+                            </div>
+                        </div>
+
 
                     </div>
                     <div class="col-md-12">
-                        <a href="">ỨNG TUYỂN</a>
+                        <div class="button-group">
+                            <button id="btnSendMail" type="button" class="btn btn-contact">Gửi Liên Hệ<i
+                                        class="fa fa-spinner fa-spin fa-3x fa-fw loadingSending" style="
+    font-size: 15px;display: none"></i><i
+                                        class="fa fa-check-circle successSending" style="display: none"
+                                        aria-hidden="true"></i></button>
+                            <span style="display: none">Chúng tôi đã nhận được mail và sẽ phản hồi quý khách trong 24h. Xin cảm ơn.</span>
+                        </div>
+                        {{--<a href="">ỨNG TUYỂN</a>--}}
                     </div>
                 </div>
             </div>

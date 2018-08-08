@@ -1,31 +1,27 @@
 <?php
 
 
-
 Route::get('/', 'FrontendController@getFrontend');
 
 Route::get('/gioi-thieu-tuan-123.html', function () {
     return view('frontend.gioithieu.index');
 });
 
-Route::get('/hoat-dong.html', function () {
-    return view('frontend.hoatdong.index');
-});
+Route::get('/hoat-dong.html', 'FrontendController@getAllHoatDong');
 
-Route::get('/hoat-dong-chitiet.html', function () {
-    return view('frontend.hoatdong_chitiet.index');
-});
 Route::get('/hoat-dong/{path}', 'FrontendController@getDetailHoatDong');
 
 
 Route::get('/tuyen-dung/{path}', 'FrontendController@getDetailTuyenDung');
 
 
-Route::get('/tuyen-dung.html','FrontendController@getAllTuyenDung');
+Route::get('/tuyen-dung.html', 'FrontendController@getAllTuyenDung');
 
+Route::post('/sendmail/send', ['as' => 'mail.send', 'uses' => 'MailController@send']);
 
-Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
+Route::get('/lien-he.html','FrontendController@getPage')->defaults('type','1');
 
+Route::post('/tim-kiem', 'FrontendController@getSearch')->name('search');
 
 
 Route::get('/admin/sml_login', 'AuthController@checklogin');
