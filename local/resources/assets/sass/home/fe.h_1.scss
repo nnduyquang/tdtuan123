@@ -1,0 +1,33 @@
+#h_1 {
+  min-height: 338px;
+  background-color: #dce2e4;
+  .container {
+    z-index: 11;
+    transition: .3s;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .content-middle {
+    height: 218px;
+    overflow: hidden;
+  }
+  h6 {
+    color: #055699;
+    font-size: 18px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  .btn-xemthem {
+    position: absolute;
+    bottom: -3px;
+    left: 5%;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    background: linear-gradient(-90deg, #0a6287, #0d95e8);
+    color: white;
+    cursor: pointer;
+
+  }
+}

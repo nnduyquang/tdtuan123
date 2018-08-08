@@ -573,3 +573,43 @@ This class is added to the container
   font-weight: bold;
   font-size: 25px;
 }
+
+#h_1 {
+  min-height: 338px;
+  background-color: #dce2e4;
+}
+
+#h_1 .container {
+  z-index: 11;
+  -webkit-transition: .3s;
+  transition: .3s;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#h_1 .content-middle {
+  height: 218px;
+  overflow: hidden;
+}
+
+#h_1 h6 {
+  color: #055699;
+  font-size: 18px;
+}
+
+#h_1 h5 {
+  font-size: 28px;
+}
+
+#h_1 .btn-xemthem {
+  position: absolute;
+  bottom: -3px;
+  left: 5%;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  background: -webkit-gradient(linear, right top, left top, from(#0a6287), to(#0d95e8));
+  background: linear-gradient(-90deg, #0a6287, #0d95e8);
+  color: white;
+  cursor: pointer;
+}

@@ -1,9 +1,10 @@
 <?php
 
 
-Route::get('/', function () {
-    return view('frontend.home.index');
-});
+//Route::get('/', function () {
+//    return view('frontend.home.index');
+//});
+Route::get('/', 'FrontendController@getFrontend');
 
 Route::get('/gioi-thieu-tuan-123.html', function () {
     return view('frontend.gioithieu.index');

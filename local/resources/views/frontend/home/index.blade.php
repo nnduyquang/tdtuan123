@@ -13,7 +13,7 @@
 @section('slider')
 
     @include('frontend.home.slider')
-    @include('frontend.home.middle')
+    @include('frontend.home.h_1')
 
 @stop
 @section('container')
