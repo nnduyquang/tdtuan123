@@ -73,8 +73,9 @@
         </div>
     </div>
 
-    @include('frontend.home.NhanVienTieuBieu')
-    @include('frontend.home.CamNghiNhanVien')
+    {{--@include('frontend.home.NhanVienTieuBieu')--}}
+    {{--@include('frontend.home.CamNghiNhanVien')--}}
+    @include('frontend.common.ViTriKhac')
     @include('frontend.home.UngTuyenNhanh')
 @stop
 
@@ -114,6 +115,31 @@
 
             var owl3 = $('#owl-3');
             owl3.owlCarousel({
+                loop:true,
+                margin:10,
+                nav:false,
+                dots:true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{
+                        items:1,
+                        dots:true,
+                    },
+                    600:{
+                        items:2,
+                        dots:true,
+                    },
+                    1000:{
+                        items:3,
+                        dots:true,
+                    }
+                }
+            })
+
+            var owl2 = $('#owl-2');
+            owl2.owlCarousel({
                 loop:true,
                 margin:10,
                 nav:false,
