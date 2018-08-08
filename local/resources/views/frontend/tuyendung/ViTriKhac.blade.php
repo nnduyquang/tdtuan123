@@ -1,5 +1,6 @@
 <style>
     div#fe_td_ViTriKhac h5 {
+        font-family: 'Lalezar', cursive;
         font-size: 25px;
         position: relative;
     }
@@ -55,7 +56,7 @@
     <div class="container">
         <div class="row pt-5 pb-4">
             <div class="col-md-12 text-center mb-5">
-                <h5>TUYỂN CÁC VỊ TRỊ KHÁC</h5>
+                <h5>VỊ TRÍ TUYỂN DỤNG</h5>
                 <p class="pt-4">Một số vị trí khác tại công ty Tuấn 123, Xem các vị trí tuyển dụng khác của công ty chúng tôi.</p>
             </div>
 
