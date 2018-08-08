@@ -1,15 +1,22 @@
-#h_2{
-  #fe_h_ttct h4 {
+#h_2 {
+  h4 {
     font-size: 22px;
     font-weight: 600;
   }
-
-  #fe_h_ttct p {
+  p {
     color: #878a8b;
     line-height: 19px;
   }
-
-  #fe_h_ttthem p {
+  .mr-td:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background-color: #0d95e8;
+    left: 0;
+    top: -1px;
+  }
+  .statistics p {
     font-size: 20px;
     padding-top: 10px;
     color: #015b8e;

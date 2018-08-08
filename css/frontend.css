@@ -613,3 +613,30 @@ This class is added to the container
   color: white;
   cursor: pointer;
 }
+
+#h_2 h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#h_2 p {
+  color: #878a8b;
+  line-height: 19px;
+}
+
+#h_2 .mr-td:before {
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  background-color: #0d95e8;
+  left: 0;
+  top: -1px;
+}
+
+#h_2 .statistics p {
+  font-size: 20px;
+  padding-top: 10px;
+  color: #015b8e;
+  line-height: 23px;
+}

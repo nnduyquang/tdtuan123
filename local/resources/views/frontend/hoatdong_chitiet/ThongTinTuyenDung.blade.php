@@ -29,7 +29,7 @@
     }
 </style>
 
-<div class="container-fluid main-font" id="title_menu">
+<div class="container-fluid main-font" id="title_menu" style="background:url('{{URL::to('images/bg/sl-bg1.jpg')}}')">
     <div class="container">
         <div class="row">
             <div class="col-md-12 pt-4 pb-5">
@@ -104,44 +104,12 @@
         <div class="row">
 
             <div class="col-md-9 animated fadeIn slower">
-
-                <div class="p-3 position-relative animated zoomIn" style="width: 40%;height: auto;float: left">
-                    <img src="http://demo.templatepath.com/justice/demo/img/content/ceo.jpg" alt=""
-                         style="width: 100%;height: auto;">
-                    <div class="d-flex align-items-end"
-                         style="border: 5px solid rgba(255,255,255,0.9);position: absolute;width: 86%;height: 90%;left: 7%;top: 4.5%;">
-                        <div class="d-flex align-items-center justify-content-between"
-                             style="width: 100%;height: auto;background:rgba(255,255,255,0.9);padding: 10px">
-                            <img src="http://demo.templatepath.com/justice/demo/img/content/avatar2.jpg" alt=""
-                                 style="border-radius: 50%;width: 86px;height: 86px;border: 4px solid white">
-                            <div class="pl-3">
-                                <p class="pb-2" style="color: #878a8b;line-height: 19px">There are many variations of
-                                    passages of Lorem Ipsum available,</p>
-                                <span class="font-weight-bold pl-3 position-relative mr-td">Mr TUYỂN DỤNG</span>
-                            </div>
-                        </div>
-                    </div>
+                <div class="title">
+                    {{ $data['getDetailHoatDong']->title}}
                 </div>
-
-                <h4 class="pt-3 pb-2">THÔNG TIN HOẠT ĐỘNG CÔNG TY THƯỜNG NIÊN</span>
-                </h4>
-
-                <span class="pb-3">Posted April3, 2018</span>
-
-                <p class="pb-4 pt-3">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered humour, or randomised words which don't look</p>
-
-                <p class="pb-4">humour, or randomised words which don't look even slightly believable.
-                    If you aregoing to use a passage of Lorem Ipsum, you need to be sure there isn't.There are many
-                    variations of
-                    passages of Lorem Ipsum available, but the majority have suffered humour,</p>
-
-                <p class="pb-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aspernatur,
-                    aut consequatur debitis deserunt earum in laboriosam minus natus neque officiis possimus
-                    quasi repellat reprehenderit,
-                    saepe sint sit tempora...</p>
-
-
+                <div class="content">
+                    {!! $data['getDetailHoatDong']->content !!}
+                </div>
             </div>
 
 
@@ -169,59 +137,19 @@
             </style>
 
             <div class="col-md-3" id="fe_TD_phucloi">
-                <h4 class="pt-3 pb-3">CÓ THỂ BẠN QUAN TÂM</h4>
+                <h4 class="pt-3 pb-3">HOẠT ĐỘNG KHÁC</h4>
+                @foreach($data['other'] as $key=>$item)
+                    <div class="d-flex align-items-center mb-3 mt-3 animated bounceIn">
+                        {{ Html::image($item->image,'',array('style'=>'width: 64px;height: auto;')) }}
+                        <div>
+                            <p class="pl-3">
+                                <a href="{{URL::to('hoat-dong/'.$item->path)}}">{{$item->title}}</a>
+                            </p>
 
-                <div class="d-flex align-items-center mb-3 mt-3 animated bounceIn">
-                    <img src="{{URL::asset('https://img-ovh-cloud.zszywka.pl/0/0170/5932-marina-bay-sands-singapur.jpg')}}"
-                         alt="" style="width: 64px;height: auto;">
-                    <div>
-                        <p class="pl-3">
-                            <a href="">Tham quan đảo quốc Singapore.</a>
-                        </p>
-
+                        </div>
                     </div>
-                </div>
-
-                <div class="d-flex align-items-center mb-3 mt-3 animated bounceIn">
-                    <img src="{{URL::asset('https://i-ngoisao.vnecdn.net/2018/08/08/cc-7987-1533692501_122x122.jpg')}}"
-                         alt="" style="width: 64px;height: auto;">
-                    <div>
-                        <p class="pl-3">
-                            <a href="">Giải bóng đá chuyên nghiệp cty</a>
-                        </p>
-
-                    </div>
-                </div>
-
-
-                <div class="d-flex align-items-center mb-3 mt-3 animated bounceIn">
-                    <img src="{{URL::asset('https://i-ngoisao.vnecdn.net/2018/08/06/o2-3778-1533542130_122x122.jpg')}}"
-                         alt="" style="width: 64px;height: auto;">
-                    <div>
-
-                        <p class="pl-3">
-                            <a href="">Giải bóng đá chuyên nghiệp cty</a>
-                        </p>
-
-
-                    </div>
-                </div>
-
-                <div class="d-flex align-items-center mb-3 mt-3  animated bounceIn">
-
-                    <img src="{{URL::asset('https://i-ngoisao.vnecdn.net/2018/08/07/mung1-5573-1533656664_122x122.jpg')}}"
-                         alt=""
-                         style="width: 64px;max-height: 64px;">
-
-                    <div>
-                        <p class="pl-3">
-                            <a href="">Giải bóng đá chuyên nghiệp cty</a>
-                        </p>
-
-                    </div>
-                </div>
-
-
+                @endforeach
+                
             </div>
 
         </div>
@@ -235,11 +163,11 @@
         position: relative;
     }
 
-    #fe_hdct_CungChuyenMuc h6{
+    #fe_hdct_CungChuyenMuc h6 {
         font-weight: 600;
     }
 
-    #fe_hdct_CungChuyenMuc a{
+    #fe_hdct_CungChuyenMuc a {
         color: #2a2a2a;
     }
 </style>
@@ -256,13 +184,14 @@
                     @for ($i = 0; $i < 4; $i++)
                         <div class="col-md-3 fe-td-vitrikhac d-flex flex-column">
 
-                            <img src="{{URL::asset('https://img-ovh-cloud.zszywka.pl/0/0170/5932-marina-bay-sands-singapur.jpg')}}" alt="">
+                            <img src="{{URL::asset('https://img-ovh-cloud.zszywka.pl/0/0170/5932-marina-bay-sands-singapur.jpg')}}"
+                                 alt="">
                             <div class="pt-3 mb-3">
                                 <a href="">
-                                <h6>TIN TỨC HOẠT ĐỘNG KHÁC</h6>
-                                <span>Posted April3, 2018</span>
-                                {{--<p class="pt-3"></p>--}}
-                                {{--<a class="mt-3" href="">XEM THÊM</a>--}}
+                                    <h6>TIN TỨC HOẠT ĐỘNG KHÁC</h6>
+                                    <span>Posted April3, 2018</span>
+                                    {{--<p class="pt-3"></p>--}}
+                                    {{--<a class="mt-3" href="">XEM THÊM</a>--}}
                                 </a>
                             </div>
 

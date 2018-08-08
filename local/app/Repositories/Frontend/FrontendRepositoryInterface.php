@@ -9,4 +9,8 @@ interface FrontendRepositoryInterface
     public function getFrontendCommon();
 
     public function getAllTuyenDung();
+
+    public function getDetailTuyenDung($path);
+
+    public function getDetailHoatDong($path);
 }

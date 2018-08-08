@@ -1,9 +1,7 @@
 <?php
 
 
-//Route::get('/', function () {
-//    return view('frontend.home.index');
-//});
+
 Route::get('/', 'FrontendController@getFrontend');
 
 Route::get('/gioi-thieu-tuan-123.html', function () {
@@ -17,15 +15,11 @@ Route::get('/hoat-dong.html', function () {
 Route::get('/hoat-dong-chitiet.html', function () {
     return view('frontend.hoatdong_chitiet.index');
 });
+Route::get('/hoat-dong/{path}', 'FrontendController@getDetailHoatDong');
 
 
-Route::get('/tuyen-dung-nv-bds.html', function () {
-    return view('frontend.tuyendung.index');
-});
+Route::get('/tuyen-dung/{path}', 'FrontendController@getDetailTuyenDung');
 
-Route::get('/tuyen-dung.html', function () {
-    return view('frontend.danhmuccv.index');
-});
 
 Route::get('/tuyen-dung.html','FrontendController@getAllTuyenDung');
 

@@ -11,7 +11,7 @@
                 </div>
                     <h6 class="p-3">{{$item->title}}</h6>
                     <p class="pl-3 pr-3 pb-5">{{$item->description}}</p>
-                    <button class="btn-xemthem">XEM THÊM</button>
+                    <a href="{{URL::to('hoat-dong/'.$item->path)}}" class="btn-xemthem">XEM THÊM</a>
                 </div>
             </div>
             @endforeach

@@ -25,7 +25,7 @@
                 </div>
 
 
-                <div class="row pt-4" id="fe_h_ttthem">
+                <div class="row pt-4 statistics">
                     <div class="col-md-12" id="h_static">
                         {{--<h4 class="pt-3 pb-4">THÔNG TIN <span style="color:#0d95e8;">THÊM</span></h4>--}}
                     </div>

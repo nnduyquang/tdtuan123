@@ -1,6 +1,5 @@
 <style>
     #title_menu {
-        background-image: url('images/bg/sl-bg1.jpg');
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center center;
@@ -29,7 +28,7 @@
     }
 </style>
 
-<div class="container-fluid main-font" id="title_menu">
+<div class="container-fluid main-font" id="title_menu" style="background:url('{{URL::to('images/bg/sl-bg1.jpg')}}')">
     <div class="container">
         <div class="row">
             <div class="col-md-12 pt-4 pb-5">
@@ -76,7 +75,7 @@
 
     }
 
-    #fe_h_ttct a{
+    #fe_h_ttct a {
         color: white;
         padding: 10px 20px;
         border-radius: 3px;
@@ -84,14 +83,13 @@
         transition: .3s;
     }
 
-    #fe_h_ttct a:hover{
+    #fe_h_ttct a:hover {
         color: white;
         padding: 10px 20px;
         border-radius: 3px;
         background: linear-gradient(-90deg, #0a6287, #0d95e8);
         transition: .3s;
     }
-
 
     #fe_h_ttct p {
         color: #878a8b;
@@ -111,42 +109,13 @@
 <div class="container-fluid main-font" id="fe_h_ttct">
     <div class="container pt-5 pb-5">
         <div class="row">
-            <div class="col-md-4 p-3 position-relative animated zoomIn">
-                <img src="http://demo.templatepath.com/justice/demo/img/content/ceo.jpg" alt=""
-                     style="width: 100%;height: auto;">
-                <div class="d-flex align-items-end"
-                     style="border: 5px solid rgba(255,255,255,0.9);position: absolute;width: 86%;height: 90%;left: 7%;top: 4.5%;">
-                    <div class="d-flex align-items-center justify-content-between"
-                         style="width: 100%;height: auto;background:rgba(255,255,255,0.9);padding: 10px">
-                        <img src="http://demo.templatepath.com/justice/demo/img/content/avatar2.jpg" alt=""
-                             style="border-radius: 50%;width: 86px;height: 86px;border: 4px solid white">
-                        <div class="pl-3">
-                            <p class="pb-2" style="color: #878a8b;line-height: 19px">There are many variations of
-                                passages of Lorem Ipsum available,</p>
-                            <span class="font-weight-bold pl-3 position-relative mr-td">Mr TUYỂN DỤNG</span>
-                        </div>
-                    </div>
+            <div class="col-md-9 animated fadeIn slower">
+                <div class="title">
+                    {{ $data['getDetailTuyenDung']->title}}
                 </div>
-            </div>
-            <div class="col-md-5 animated fadeIn slower">
-                <h4 class="pt-3 pb-3">TUYỂN NHÂN VIÊN KINH DOANH <span style="color:#0d95e8;"> BẤT ĐỘNG SẢN</span>
-                </h4>
-
-                <h5 class="pb-3">LƯƠNG: THỎA THUẬN</h5>
-
-                <p class="pb-4">There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered humour, or randomised words which don't look</p>
-
-                <p class="pb-4">humour, or randomised words which don't look even slightly believable.
-                    If you aregoing to use a passage of Lorem Ipsum, you need to be sure there isn't.There are many
-                    variations of
-                    passages of Lorem Ipsum available, but the majority have suffered humour,</p>
-
-                <p class="pb-3 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aspernatur,
-                    aut consequatur debitis deserunt earum in laboriosam minus natus neque officiis possimus
-                    quasi repellat reprehenderit,
-                    saepe sint sit tempora...</p>
-
+                <div class="content">
+                    {!! $data['getDetailTuyenDung']->content !!}
+                </div>
                 <a href="">ỨNG TUYỂN VỊ TRÍ</a>
 
             </div>
@@ -191,8 +160,6 @@
 
                     </div>
                 </div>
-
-
                 <div class="d-flex align-items-center mb-3 mt-3 animated bounceIn">
                     <img src="{{URL::asset('images/icon/discount.png')}}" alt="" style="width: 64px;height: auto;">
                     <div>
@@ -210,13 +177,9 @@
                         <p class="pl-3">
                             Giải thưởng truyền cảm hứng cho nhân viên tiêu biểu<br>
                         </p>
-
                     </div>
                 </div>
-
-
             </div>
-
         </div>
     </div>
 </div>

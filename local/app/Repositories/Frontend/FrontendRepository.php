@@ -26,6 +26,7 @@ class FrontendRepository implements FrontendRepositoryInterface
 
     public function getAllTuyenDung()
     {
+        $data = [];
         $allTuyenDung=CategoryItem::where('id',8)->first()->posts()->where('isActive',ACTIVE)->get();
         foreach ($allTuyenDung as $key=>$item){
             $item->description = cat_chuoi_dai_thanh_ngan(loai_bo_html_tag($item->description), 200);
@@ -38,6 +39,24 @@ class FrontendRepository implements FrontendRepositoryInterface
         }
         $data['actionCompany'] = $actionCompany;
         $data['allTuyenDung'] = $allTuyenDung;
+        return $data;
+    }
+
+    public function getDetailTuyenDung($path)
+    {
+        $data = [];
+        $getDetailTuyenDung=CategoryItem::where('id',8)->first()->posts()->where('path',$path)->first();
+        $data['getDetailTuyenDung'] = $getDetailTuyenDung;
+        return $data;
+    }
+
+    public function getDetailHoatDong($path)
+    {
+        $data = [];
+        $getDetailHoatDong=CategoryItem::where('id',7)->first()->posts()->where('path',$path)->first();
+        $data['getDetailHoatDong'] = $getDetailHoatDong;
+        $other=CategoryItem::where('id',7)->first()->posts()->where('id','<>',$getDetailHoatDong->id)->take(4)->get();
+        $data['other'] = $other;
         return $data;
     }
 
