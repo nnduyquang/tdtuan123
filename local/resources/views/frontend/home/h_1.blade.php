@@ -1,4 +1,4 @@
-<div id="h_1">
+<div id="h_1" class="shadow-sm">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center mb-5">

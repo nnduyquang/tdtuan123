@@ -14,6 +14,7 @@
 
     @include('frontend.home.slider')
     @include('frontend.home.h_1')
+    {{--@include('frontend.home.h_1_copy')--}}
     @include('frontend.home.h_2')
 
 @stop

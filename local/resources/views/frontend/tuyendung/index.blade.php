@@ -12,7 +12,7 @@
 
 @include('frontend.tuyendung.ThongTinTuyenDung')
 @include('frontend.common.contact_middle')
-@include('frontend.tuyendung.ViTriKhac')
+@include('frontend.common.ViTriKhac')
     {{--@include('frontend.tuyendung.UngTuyenNhanh')--}}
 
 @stop
@@ -30,8 +30,8 @@
             }
             $('#tl-tdc').addClass(" "+"active");
 
-            var owl3 = $('#owl-3');
-            owl3.owlCarousel({
+            var owl2 = $('#owl-2');
+            owl2.owlCarousel({
                 loop:true,
                 margin:10,
                 nav:false,
