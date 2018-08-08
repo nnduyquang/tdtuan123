@@ -157,7 +157,7 @@
                             <li>
                                 <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung-nv-bds.html')) ? 'active' : '' }}"
                                    href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
-                            <li><a class="tablinks" href="">LIÊN HỆ</a></li>
+                            <li><a class="tablinks" href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>
