@@ -5,7 +5,7 @@
     line-height: 1.5!important;
     h3.title {
       font-weight: bold;
-      font-size: 24px;
+      font-size: 18px;
     }
     p {
       margin-bottom: 20px;
@@ -16,6 +16,10 @@
       color: #0d51db;
       margin-bottom: 20px;
     }
+
+  }
+
+  div#contact_content{
     ul {
       list-style: none;
       li{
@@ -24,6 +28,7 @@
         }
       }
     }
+
   }
   .contact_bottom {
     .input-group {

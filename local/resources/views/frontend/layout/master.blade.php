@@ -153,11 +153,11 @@
                             <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"
                                    href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
                             <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
-                            <li><a class="{{ (request()->is('hoat-dong.html') || request()->is('*tuan-123*')) ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
+                            <li><a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
                             <li>
-                                <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen*')) ? 'active' : '' }}"
+                                <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung/*')) ? 'active' : '' }}"
                                    href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
-                            <li><a class="tablinks" href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
+                            <li><a class="{{ request()->is('lien-he.html') ? 'active' : '' }}" href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>

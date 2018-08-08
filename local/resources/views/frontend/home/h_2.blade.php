@@ -4,8 +4,8 @@
             <div class="col-md-4 p-3 position-relative">
                 <img src="http://demo.templatepath.com/justice/demo/img/content/ceo.jpg" alt=""
                      style="width: 100%;height: auto;">
-                <div class="d-flex align-items-end"
-                     style="border: 5px solid rgba(255,255,255,0.9);position: absolute;width: 86%;height: 90%;left: 7%;top: 4.5%;">
+                <div class="d-flex align-items-end img-mr-dung"
+                     style="">
                     <div class="d-flex align-items-center justify-content-between"
                          style="width: 100%;height: auto;background:rgba(255,255,255,0.9);padding: 10px">
                         <img src="http://demo.templatepath.com/justice/demo/img/content/avatar2.jpg" alt=""

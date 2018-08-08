@@ -116,7 +116,9 @@
                 <div class="content">
                     {!! $data['getDetailTuyenDung']->content !!}
                 </div>
+                <div class="mt-3" style="width: fit-content;margin: auto">
                 <a href="">ỨNG TUYỂN VỊ TRÍ</a>
+                </div>
 
             </div>
 
