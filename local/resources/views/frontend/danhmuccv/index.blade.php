@@ -29,49 +29,48 @@
                             <h5>CÁC VỊ TRÍ TUYỂN DỤNG</h5>
                         </div>
                         <div class="col-12">
-                            @for ($i = 0; $i < 4; $i++)
+                            @foreach( $data['allTuyenDung'] as$key=>$item)
                                 <div class="row mb-3 d-flex align-items-center items-vitrituyendung">
                                     <div class="col-md-3">
-                                        <img src="{{URL::asset('/images/uploads/nhan_vien_kd.jpg')}}" alt="">
+                                        {{ Html::image($item->image,'',array('style'=>'')) }}
                                     </div>
 
                                     <div class="col-md-5 pl-2 border-right ">
-                                        <h4>NHÂN VIÊN KINH DOANH BẤT ĐỘNG SẢN</h4>
-                                        <p class="pb-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Accusamus aperiam doloremque excepturi, in minus modi nobis
-                                            .</p>
+                                        <h4>{{$item->title}}</h4>
+                                        <p class="pb-2">{{$item->description}}</p>
                                     </div>
                                     <div class="col-md-4 d-flex flex-column flex-lg-row align-items-center">
-                                        <div class="mb-3">
-                                            <h4 class="pr-lg-1 pr-sm-0">LƯƠNG:THỎA THUẬN</h4>
-                                            <span>Posted April3, 2018</span>
-                                        </div>
+                                        {{--<div class="mb-3">--}}
+                                            {{--<h4 class="pr-lg-1 pr-sm-0">LƯƠNG:THỎA THUẬN</h4>--}}
+                                            {{--<span>Posted April3, 2018</span>--}}
+                                        {{--</div>--}}
                                         <div class="d-flex flex-column pl-1">
-                                            <a href="{{URL::asset('/tuyen-dung-nv-bds.html')}}" class="text-center mr-1" style="line-height: 20px">CHI TIẾT</a>
+                                            <a href="{{URL::asset('/tuyen-dung-nv-bds.html')}}" class="text-center mr-1"
+                                               style="line-height: 20px">CHI TIẾT</a>
                                             <a href="" class="text-center">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
                                 </div>
-                            @endfor
+                            @endforeach
                         </div>
 
-                        <div class="col-md-12 text-center ">
-                            <button>XEM TẤT CẢ</button>
-                        </div>
+                        {{--<div class="col-md-12 text-center ">--}}
+                            {{--<button>XEM TẤT CẢ</button>--}}
+                        {{--</div>--}}
 
                     </div>
                 </div>
 
                 <div class="col-md-3" id="fe_dm_tthd">
                     <h6 class="mb-3">HOẠT ĐỘNG <span style="color: #0d95e8">GẦN ĐÂY</span></h6>
-                    @for ($i = 0; $i < 4; $i++)
+                    @foreach( $data['actionCompany'] as$key=>$item)
                         <a href="">
                             <div class="items-tthd border p-0 position-relative">
-                                <img src="{{URL::asset('images/bg/bg1.jpg')}}" alt="" style="">
-                                <p>DU LỊCH SINGAPORE</p>
+                                {{ Html::image($item->image,'',array('style'=>'')) }}
+                                <p>{{$item->title}}</p>
                             </div>
                         </a>
-                    @endfor
+                    @endforeach
                 </div>
 
 
@@ -148,14 +147,14 @@
     {{--@include('frontend.tuyendung.UngTuyenNhanh')--}}
 
     <style>
-        div#fe_gt_slogan{
+        div#fe_gt_slogan {
             background-image: url('images/bg/twitter.jpg');
             -webkit-background-size: cover;
             background-size: cover;
             background-position: center center;
         }
 
-        div#fe_gt_slogan h5{
+        div#fe_gt_slogan h5 {
             font-size: 22px;
             font-weight: 600;
             font-family: 'Lalezar', cursive;
@@ -164,7 +163,7 @@
             margin: auto;
         }
 
-        div#fe_gt_slogan p{
+        div#fe_gt_slogan p {
             font-size: 19px;
             font-weight: normal;
             position: relative;
@@ -172,7 +171,7 @@
             margin: auto;
         }
 
-        div#fe_gt_slogan h5:before{
+        div#fe_gt_slogan h5:before {
             position: absolute;
             content: '';
             height: 1px;

@@ -9,7 +9,7 @@
                 <div class="content-middle">
                     {{ Html::image($item->image,'',array('style'=>'width: 100%;height: auto;')) }}
                 </div>
-                    <h6 class="p-3">{{$item->name}}</h6>
+                    <h6 class="p-3">{{$item->title}}</h6>
                     <p class="pl-3 pr-3 pb-5">{{$item->description}}</p>
                     <button class="btn-xemthem">XEM THÊM</button>
                 </div>

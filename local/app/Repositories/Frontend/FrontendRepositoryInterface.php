@@ -7,4 +7,6 @@ interface FrontendRepositoryInterface
     public function getFrontend();
 
     public function getFrontendCommon();
+
+    public function getAllTuyenDung();
 }

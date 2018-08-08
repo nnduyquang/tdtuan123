@@ -23,6 +23,8 @@ Route::get('/tuyen-dung.html', function () {
     return view('frontend.danhmuccv.index');
 });
 
+Route::get('/tuyen-dung.html','FrontendController@getAllTuyenDung');
+
 
 Route::post('/tim-kiem','FrontendController@getSearch')->name('search');
 

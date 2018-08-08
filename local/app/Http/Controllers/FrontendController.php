@@ -20,5 +20,10 @@ class FrontendController extends Controller
         return view('frontend.home.index', compact('data'));
     }
 
+    public function getAllTuyenDung(){
+        $data = $this->frontendRepository->getAllTuyenDung();
+        return view('frontend.danhmuccv.index', compact('data'));
+    }
+
 }
 

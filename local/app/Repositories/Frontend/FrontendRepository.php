@@ -13,12 +13,31 @@ class FrontendRepository implements FrontendRepositoryInterface
     public function getFrontend()
     {
         $data = [];
-        $actionCompany=Post::where('category_item_id',7)->where('isActive', ACTIVE)->take(3)->get();
+        $actionCompany=CategoryItem::where('id',7)->first()->posts()->where('isActive',ACTIVE)->take(3)->get();
         foreach ($actionCompany as $key=>$item){
             $item->description = cat_chuoi_dai_thanh_ngan(loai_bo_html_tag($item->description), 200);
             $item->title = cat_chuoi_dai_thanh_ngan($item->title, 50);
         }
         $data['actionCompany'] = $actionCompany;
+        $getIntroduce=Config::where('name', 'config-introduce')->first()->content;
+        $data['getIntroduce'] = $getIntroduce;
+        return $data;
+    }
+
+    public function getAllTuyenDung()
+    {
+        $allTuyenDung=CategoryItem::where('id',8)->first()->posts()->where('isActive',ACTIVE)->get();
+        foreach ($allTuyenDung as $key=>$item){
+            $item->description = cat_chuoi_dai_thanh_ngan(loai_bo_html_tag($item->description), 200);
+            $item->title = cat_chuoi_dai_thanh_ngan($item->title, 100);
+        }
+        $actionCompany=CategoryItem::where('id',7)->first()->posts()->where('isActive',ACTIVE)->take(5)->get();
+        foreach ($actionCompany as $key=>$item){
+            $item->description = cat_chuoi_dai_thanh_ngan(loai_bo_html_tag($item->description), 200);
+            $item->title = cat_chuoi_dai_thanh_ngan($item->title, 50);
+        }
+        $data['actionCompany'] = $actionCompany;
+        $data['allTuyenDung'] = $allTuyenDung;
         return $data;
     }
 

@@ -70,18 +70,9 @@
                 </div>
                 <div class="col-md-8">
                     <h4 class="pt-3 pb-3">THÔNG TIN VỀ <span style="color:#0d95e8;"> CHÚNG TÔI</span></h4>
-                    <p class="pb-4">There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered humour, or randomised words which don't look</p>
-
-                    <p class="pb-4">humour, or randomised words which don't look even slightly believable.
-                        If you aregoing to use a passage of Lorem Ipsum, you need to be sure there isn't.There are many
-                        variations of
-                        passages of Lorem Ipsum available, but the majority have suffered humour,</p>
-
-                    <p class="pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab architecto aspernatur,
-                        aut consequatur debitis deserunt earum in laboriosam minus natus neque officiis possimus
-                        quasi repellat reprehenderit,
-                        saepe sint sit tempora...<a class="pr-2 text-right" href="">xem chi tiết !</a></p>
+                   <div class="description">
+                       {!! $data['getIntroduce'] !!}
+                   </div>
 
 
                     <div class="row pt-4" id="fe_h_ttthem">
