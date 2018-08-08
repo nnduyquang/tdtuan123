@@ -23,6 +23,7 @@
     }
     .fe-td-vitrikhac{
         width: 80%;
+        margin: auto;
     }
 
     .fe-td-vitrikhac a{
