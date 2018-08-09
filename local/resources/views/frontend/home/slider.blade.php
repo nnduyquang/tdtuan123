@@ -144,7 +144,7 @@
                 CTY BĐS TUẤN123
                 </p>
                 <div class="animated bounceInDown slow">
-                <a class="fe-h-utvt" href="https://docs.google.com/forms/d/e/1FAIpQLSemOD1ouJ39yK9cz6JHhX9E_D6X29S9z54Eilu1BSN10KqilA/viewform?usp=sf_link">ỨNG TUYỂN VỊ TRÍ</a>
+                <a target="_blank" class="fe-h-utvt" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web">ỨNG TUYỂN VỊ TRÍ</a>
                 </div>
             </div>
 
