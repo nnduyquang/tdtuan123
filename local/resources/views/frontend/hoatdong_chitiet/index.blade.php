@@ -12,7 +12,7 @@
 
 @include('frontend.hoatdong_chitiet.ThongTinTuyenDung')
 @include('frontend.common.contact_middle')
-@include('frontend.tuyendung.ViTriKhac')
+@include('frontend.common.ViTriKhac')
     {{--@include('frontend.tuyendung.UngTuyenNhanh')--}}
 
 @stop
