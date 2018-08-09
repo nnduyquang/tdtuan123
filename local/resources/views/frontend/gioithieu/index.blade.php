@@ -457,33 +457,33 @@
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                 <iframe
                                         class="embed-responsive-item" style="display: block; margin-left: auto; margin-right: auto;"
-                                    src="https://www.youtube.com/embed/343K94I-p6Y" frameborder="0"></iframe>
+                                        src="https://www.youtube.com/embed/343K94I-p6Y" frameborder="0"></iframe>
                             </div>
                         </strong></p>
                     <p class="pb-2"><strong style="font-size: 16px;">
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                 <iframe
                                         class="embed-responsive-item" style="display: block; margin-left: auto; margin-right: auto;"
-                                    src="https://www.youtube.com/embed/2Jb-n86eGh4" frameborder="0"></iframe>
+                                        src="https://www.youtube.com/embed/2Jb-n86eGh4" frameborder="0"></iframe>
                             </div>
                         </strong></p>
                     <p class="pb-2" style="text-align: center;"><strong style="font-size: 16px;">
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                 <iframe
                                         class="embed-responsive-item" style="display: block; margin-left: auto; margin-right: auto;"
-                                    src="https://www.youtube.com/embed/-liTpxci-gY" frameborder="0">
+                                        src="https://www.youtube.com/embed/-liTpxci-gY" frameborder="0">
 
                                 </iframe>
                             </div>
                             <br>
-                            <p style="margin: auto; width: fit-content">Tọa đàm: Định hướng quản ký, kinh doanh Bất động sản đỉnh cao trong tương
-                            lai&nbsp;</p></strong></p>
+                    <p style="margin: auto; width: fit-content">Tọa đàm: Định hướng quản ký, kinh doanh Bất động sản đỉnh cao trong tương
+                        lai&nbsp;</p></strong></p>
                     <p class="pb-2" style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                    style="display: block; margin-left: auto; margin-right: auto;"
-                                    src="https://www.youtube.com/embed/U_uZGs7jMk4?rel=0&amp;controls=0" frameborder="0"
-                            ></iframe>
+                                            style="display: block; margin-left: auto; margin-right: auto;"
+                                            src="https://www.youtube.com/embed/U_uZGs7jMk4?rel=0&amp;controls=0" frameborder="0"
+                                    ></iframe>
                             </div></span></p>
                     <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
                                 style="font-size: 16px;">Thư ký Phương giới thiệu Công ty Bất động sản Tuấn 123 tại ngân hàng Techcombank</span>
@@ -492,8 +492,8 @@
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/Dwrdm45f8_o?rel=0&amp;controls=0" frameborder="0"
-                            ></iframe>
+                                            src="https://www.youtube.com/embed/Dwrdm45f8_o?rel=0&amp;controls=0" frameborder="0"
+                                    ></iframe>
                             </div></span></p>
                     <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
                                 style="font-size: 16px;">BẤT ĐỘNG SẢN TUẤN 123 Tổng kết năm 2016 trên Vịnh Hạ Long hoành tráng như Xích Bích trận</span>
@@ -502,8 +502,8 @@
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/0hcPCrzm17g?rel=0&amp;controls=0" frameborder="0"
-                            ></iframe>
+                                            src="https://www.youtube.com/embed/0hcPCrzm17g?rel=0&amp;controls=0" frameborder="0"
+                                    ></iframe>
                             </div></span></p>
                     <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
                                 style="font-size: 16px;">Thủ lĩnh TUẤN 123 phát biểu mừng sinh nhật Công ty TNHH Tuấn 123 năm 2016&nbsp;</span>
@@ -512,21 +512,21 @@
                             <div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/DtjCT5P5vo4?rel=0"
-                                    frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/DtjCT5P5vo4?rel=0"
+                                            frameborder="0"></iframe>
                             </div></span></p>
                     <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
                                 style="font-size: 16px;">CÔNG TY BẤT ĐỘNG SẢN TUẤN 123 - Thế hệ đầu.</span></h1>
                     <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                    src="https://www.youtube.com/embed/_60NBeQDv3g?rel=0"
-                                    frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/_60NBeQDv3g?rel=0"
+                                            frameborder="0"></iframe>
                             </div></span></p>
 
 
                     {{--<div class="mt-3 mb-3">--}}
-                        {{--<a class="ut_ngay" href="">ỨNG TUYỂN NGAY</a>--}}
+                    {{--<a class="ut_ngay" href="">ỨNG TUYỂN NGAY</a>--}}
                     {{--</div>--}}
 
 
@@ -538,103 +538,102 @@
                                 src="https://www.youtube.com/embed/a1Fey_I5eeQ?rel=0"></iframe>
 
                     </div>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><strong>Nằm trong chương trình Bóng đá Thứ 4 hàng tuần.<br>Trận Bán kết Sinh nhật TL TUẤN 123</strong></span>
-                        </p>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><strong>Nằm trong chương trình Bóng đá Thứ 4 hàng tuần.<br>Trận Bán kết Sinh nhật TL TUẤN 123</strong></span>
+                    </p>
 
-                                <div style="" class="embed-responsive embed-responsive-16by9">
+                    <div style="" class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                                class="embed-responsive-item"
+                                src="https://www.youtube.com/embed/PtbAfXuCvX8?rel=0" frameborder="0"></iframe>
+                    </div>
+
+
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">Chỉ Riêng Mình Ta Thủ lĩnh TUẤN 123</span></h1>
+
+                    <div style="" class="embed-responsive embed-responsive-16by9">
+                        <iframe
+                                class="embed-responsive-item"
+
+                                src="https://www.youtube.com/embed/Hr24VRP5_E0?rel=0" frameborder="0"
+                                width="100%" height="100%"></iframe>
+                    </div>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">Tổng kết Quý I 2016 Đến SVĐ Thiên Trường Tuấn 123</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/PtbAfXuCvX8?rel=0" frameborder="0"></iframe>
-                                </div>
-
-
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">Chỉ Riêng Mình Ta Thủ lĩnh TUẤN 123</span></h1>
-
-                                <div style="" class="embed-responsive embed-responsive-16by9">
-                                    <iframe
-                                            class="embed-responsive-item"
-
-                                        src="https://www.youtube.com/embed/Hr24VRP5_E0?rel=0" frameborder="0"
-                                        width="100%" height="100%"></iframe>
-                                </div>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">Tổng kết Quý I 2016 Đến SVĐ Thiên Trường Tuấn 123</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
-                                    <iframe
-                                            class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/WzYGupKhjMU?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/WzYGupKhjMU?rel=0" frameborder="0"></iframe>
                                 </div>
                             </span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">LÀ MÔI GIỚI THẬT TUYỆT! CÔNG TY BẤT ĐỘNG SẢN TUẤN 123 PHÒNG NHÀ VUA 2017</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">LÀ MÔI GIỚI THẬT TUYỆT! CÔNG TY BẤT ĐỘNG SẢN TUẤN 123 PHÒNG NHÀ VUA 2017</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/_beAvYWOL4s?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/_beAvYWOL4s?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">Nối vòng tay lớn BĐS Tuấn 123</span></h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">Nối vòng tay lớn BĐS Tuấn 123</span></h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/QIQ_9ePtZgs?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/QIQ_9ePtZgs?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">[BẤT ĐỘNG SẢN TUẤN 123] Tiểu phẩm kịch xúc động "Niềm tin nghề Môi giới"</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">[BẤT ĐỘNG SẢN TUẤN 123] Tiểu phẩm kịch xúc động "Niềm tin nghề Môi giới"</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/mvNlO4lMRtE?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/mvNlO4lMRtE?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">BĐS TUẤN 123 Màn Ăn Táo ăn Bưởi đỏ mặt nhất BĐS Tuấn 123</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">BĐS TUẤN 123 Màn Ăn Táo ăn Bưởi đỏ mặt nhất BĐS Tuấn 123</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/lmfMZfDryrY?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/lmfMZfDryrY?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">Sinh nhật thương hiệu Tuấn 123, Bất động sản Tuấn 123 Khúc hát mừng sinh nhật thương hiệu Tuấn 123</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">Sinh nhật thương hiệu Tuấn 123, Bất động sản Tuấn 123 Khúc hát mừng sinh nhật thương hiệu Tuấn 123</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/H646c4DBV5A?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/H646c4DBV5A?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">Bất động sản Tuấn 123 Ông bầu Trường đọc diễn văn khai mạc trận CK Bóng đá trên SVĐ Thiên Trường</span>
-                        </h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">Bất động sản Tuấn 123 Ông bầu Trường đọc diễn văn khai mạc trận CK Bóng đá trên SVĐ Thiên Trường</span>
+                    </h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/7A64QrQzDMY?rel=0" frameborder="0">
+                                            src="https://www.youtube.com/embed/7A64QrQzDMY?rel=0" frameborder="0">
 
                                     </iframe>
                                 </div></span>
-                        </p>
-                        <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
-                                    style="font-size: 16px;">SVĐ Hà Nam thất thủ Bất động sản Tuấn 123</span></h1>
-                        <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
+                    </p>
+                    <h1 class="title style-scope ytd-video-primary-info-renderer" style="text-align: center;"><span
+                                style="font-size: 16px;">SVĐ Hà Nam thất thủ Bất động sản Tuấn 123</span></h1>
+                    <p style="text-align: center;"><span style="font-size: 16px;"><div style="" class="embed-responsive embed-responsive-16by9">
                                     <iframe
                                             class="embed-responsive-item"
-                                        src="https://www.youtube.com/embed/3_zEpaEOc-s?rel=0" frameborder="0"></iframe>
+                                            src="https://www.youtube.com/embed/3_zEpaEOc-s?rel=0" frameborder="0"></iframe>
                                 </div></span>
-                        </p>
+                    </p>
 
                     {{--<div class="mt-3 mb-3">--}}
-                    
-                        {{--<a class="ut_ngay" href="">ỨNG TUYỂN NGAY</a>--}}
+                    {{--<a class="ut_ngay" href="">ỨNG TUYỂN NGAY</a>--}}
                     {{--</div>--}}
 
                     <p style="text-align: center;"><span style="font-size: 16px;"><strong><br></strong></span></p></div>
