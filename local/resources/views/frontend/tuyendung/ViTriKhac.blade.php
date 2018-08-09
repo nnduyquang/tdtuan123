@@ -72,7 +72,7 @@
                             <p class="pt-3 pb-3 border-light border-top">{!! $item->description !!}
                             </p>
 
-                            <a href="">XEM CHI TIẾT...!</a>
+                            <a href="{{URL::to('tuyen-dung/'.$item->path)}}">XEM CHI TIẾT...!</a>
                         </div>
                     </div>
                 @endforeach

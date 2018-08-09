@@ -255,7 +255,7 @@
                     {{--</div>--}}
                     <div class="borderwrapcon">
 
-                        <p style="text-align: center;"><span style="color: #003300;"><strong><span style="font-size: small;"><img style="display: block; margin-left: auto; margin-right: auto;width: 30%" src="http://file.talaweb.com/u1011515/home/TUAN%20123/Chung%20nhan%20thuong%20hieu%20hang%20dau%202015%202.jpg" alt="" width="250"></span></strong></span></p>
+                        <p style="text-align: center;"><span style="color: #003300;"><strong><span style="font-size: small;"><img style="display: block; margin-left: auto; margin-right: auto;" src="http://file.talaweb.com/u1011515/home/TUAN%20123/Chung%20nhan%20thuong%20hieu%20hang%20dau%202015%202.jpg" alt="" width="250"></span></strong></span></p>
                         <div style="text-align: center;"><span style="font-size: small;"><strong>CÔNG TY CỔ PHẦN TUẤN 123 - BẤT ĐỘNG SẢN TUẤN 123<br></strong><em><span style="color: #800000;">Số 1 Việt Nam về Bất động sản Thổ cư - Thương hiệu mạnh Asian.</span><strong><br></strong></em><span style="font-size: 10px;">&nbsp;</span></span></div>
                         <div id="fb-root" class=" fb_reset">
                             <div data-block="true" data-editor="evmni" data-offset-key="b6drc-0-0">
