@@ -39,19 +39,6 @@
     </div>
 </div>
 
-{{--<div class="container-fluid main-font" id="fe_TD_info">--}}
-{{--<div class="container">--}}
-{{--<div class="row mt-5 mb-5">--}}
-{{--<div class="col-md-4 border border-dark">--}}
-{{--<img class="p-2" src="{{URL::asset('images/uploads/tuyen-dung-nhan-vien-kinh-doanh.jpg')}}" alt="" style="width: 100%;height: auto;">--}}
-{{--</div>--}}
-{{--<div class="col-md-5">--}}
-{{--<h5>TUYÊN NHÂN VIÊN KINH DOANH BẤT ĐỘNG SẢN</h5>--}}
-{{--</div>--}}
-{{--<div class="col-md-3"> right</div>--}}
-{{--</div>--}}
-{{--</div>--}}
-{{--</div>--}}
 
 <style>
     .mr-td:before {
@@ -75,7 +62,7 @@
 
     }
 
-    #fe_h_ttct a {
+    #fe_h_ttct a.ut-vitri {
         color: white;
         padding: 10px 20px;
         border-radius: 3px;
@@ -83,7 +70,7 @@
         transition: .3s;
     }
 
-    #fe_h_ttct a:hover {
+    #fe_h_ttct a.ut-vitri:hover {
         color: white;
         padding: 10px 20px;
         border-radius: 3px;
@@ -116,7 +103,7 @@
                     {!! $data['getDetailTuyenDung']->content !!}
                 </div>
                 <div class="mt-3" style="width: fit-content;margin: auto">
-                <a target="_blank" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web">ỨNG TUYỂN VỊ TRÍ</a>
+                <a class="ut-vitri" target="_blank" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web">ỨNG TUYỂN VỊ TRÍ</a>
                 </div>
 
             </div>
