@@ -66,7 +66,7 @@
     }
 
     div#contact_content ul li{
-        height: 26px;
+        padding-bottom: 15px;
     }
 
     div#contact_content p{
@@ -114,13 +114,13 @@
                     Chúng tôi luôn chào đón những thành viên mới về với đại gia đình TUẤN 123.
                 </p>
                 <ul class="main-font">
-                    <li><span class="text-primary"><i class="far fa-building"></i> ĐỊA CHỈ:</span> Số 109 Trường Chinh, Đống Đa, Hà Nội.</li>
-                    <li><span class="text-primary"><i class="far fa-building"></i> TRỤ SỞ MIỀN NAM:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM.</li>
-                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> LÊ BÁ HIỂN:</span>  0962 038 484 - 0948 104 812.</li>
-                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</li>
-                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> ÂN ĐỨC NHÂN:</span> 0906 037 688 - 0166 699 899.</li>
-                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> TRẦN MINH TÙNG:</span> 0962 383 611 - 0983 185 377.</li>
-                    <li><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</li>
+                    <li><p><span class="text-primary"><i class="far fa-building"></i> ĐỊA CHỈ:</span> Số 109 Trường Chinh, Đống Đa, Hà Nội.</li>
+                    <li><p><span class="text-primary"><i class="far fa-building"></i> TRỤ SỞ MIỀN NAM:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM.</p></li>
+                    <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> LÊ BÁ HIỂN:</span>  0962 038 484 - 0948 104 812.</p></li>
+                    <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</p></li>
+                    <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> ÂN ĐỨC NHÂN:</span> 0906 037 688 - 0166 699 899.</p></li>
+                    <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> TRẦN MINH TÙNG:</span> 0962 383 611 - 0983 185 377.</p></li>
+                    <li><p><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</p></li>
                 </ul>
             </div>
             <div class="col-md-12">
