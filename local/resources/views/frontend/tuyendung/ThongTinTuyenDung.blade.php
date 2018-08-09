@@ -92,7 +92,6 @@
     }
 
     #fe_h_ttct p {
-        color: #878a8b;
         line-height: 19px;
     }
 

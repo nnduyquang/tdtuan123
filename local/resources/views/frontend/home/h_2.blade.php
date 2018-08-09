@@ -8,12 +8,12 @@
                      style="border: 5px solid rgba(255,255,255,0.9);position: absolute;width: 86%;height: 80%;left: 7%;top: 4.5%;">
                     <div class="d-flex align-items-center justify-content-between"
                          style="width: 100%;height: auto;background:rgba(255,255,255,0.9);padding: 10px">
-                        <img src="http://demo.templatepath.com/justice/demo/img/content/avatar2.jpg" alt=""
-                             style="border-radius: 50%;width: 86px;height: 86px;border: 4px solid white">
+                        {{--<img src="http://demo.templatepath.com/justice/demo/img/content/avatar2.jpg" alt=""--}}
+                             {{--style="border-radius: 50%;width: 86px;height: 86px;border: 4px solid white">--}}
                         <div class="pl-3">
-                            <p class="pb-2" style="color: #878a8b;line-height: 19px">There are many variations of
-                                passages of Lorem Ipsum available,</p>
-                            <span class="font-weight-bold pl-3 position-relative mr-td">Mr TUYỂN DỤNG</span>
+                            {{--<p class="pb-2" style="color: #878a8b;line-height: 19px">There are many variations of--}}
+                                {{--passages of Lorem Ipsum available,</p>--}}
+                            {{--<span class="font-weight-bold pl-3 position-relative mr-td">Mr TUYỂN DỤNG</span>--}}
                         </div>
                     </div>
                 </div>

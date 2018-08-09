@@ -118,7 +118,7 @@
                     <li><span class="text-primary"><i class="far fa-building"></i> TRỤ SỞ MIỀN NAM:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM.</li>
                     <li><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</li>
                     <li><span class="text-primary"><i class="fas fa-phone-volume"></i> ÂN ĐỨC NHÂN:</span> 0906 037 688 - 0166 699 899.</li>
-                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> TRẦN MINH TÙNG:</span> 0962 383 611 - 0963 185 377.</li>
+                    <li><span class="text-primary"><i class="fas fa-phone-volume"></i> TRẦN MINH TÙNG:</span> 0962 383 611 - 0983 185 377.</li>
                     <li><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</li>
                 </ul>
             </div>

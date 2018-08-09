@@ -22,12 +22,12 @@
         <li class="nav-item"><a class="nav-link" href="{{ route('post.index') }}"><i class="fa fa-link"></i>
                 <p>Bài Viết</p></a>
         </li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('categoryproduct.index') }}"><i class="fa fa-link"></i>
-                <p>Chuyên Mục Sản Phẩm</p></a>
-        </li>
-        <li class="nav-item"><a class="nav-link" href="{{ route('product.index') }}"><i class="fa fa-link"></i>
-                <p>Sản Phẩm</p></a>
-        </li>
+        {{--<li class="nav-item"><a class="nav-link" href="{{ route('categoryproduct.index') }}"><i class="fa fa-link"></i>--}}
+                {{--<p>Chuyên Mục Sản Phẩm</p></a>--}}
+        {{--</li>--}}
+        {{--<li class="nav-item"><a class="nav-link" href="{{ route('product.index') }}"><i class="fa fa-link"></i>--}}
+                {{--<p>Sản Phẩm</p></a>--}}
+        {{--</li>--}}
         <li class="nav-item has-treeview menu-open">
             <a href="#" class="nav-link">
                 <i class="fa fa-link"></i>
