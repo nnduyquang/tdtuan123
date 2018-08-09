@@ -274,8 +274,9 @@ img {
   transition: left 0.3s ease, -webkit-box-shadow 0.3s ease 0.2s;
   transition: left 0.3s ease, box-shadow 0.3s ease 0.2s;
   transition: left 0.3s ease, box-shadow 0.3s ease 0.2s, -webkit-box-shadow 0.3s ease 0.2s;
-  -webkit-box-shadow: 0.5em 0 0 0 #f2b142, 0.6em 0 0 0 #f2b142;
-  box-shadow: 0.5em 0 0 0 #f2b142, 0.6em 0 0 0 #f2b142;
+  -webkit-box-shadow: 0.5em 0 0 0 #055699, 0.6em 0 0 0 #055699;
+  box-shadow: 0.5em 0 0 0 #055699, 0.6em 0 0 0 #055699;
+  overflow: auto;
 }
 
 .sidebar.closed {
@@ -349,7 +350,7 @@ img {
 }
 
 .sidebar .background-sidebar {
-  background-image: url(../images/logo/logo_footer.png);
+  background-image: url(../images/logo/cong-ty-bds-tuan-123.png);
   height: calc(56px*4);
   background-repeat: no-repeat;
   background-size: contain;
@@ -428,7 +429,7 @@ This class is added to the container
 
 #menu #menu_top ul.menu-search li a {
   padding: 15px;
-  background-color: #f2b142;
+  background-color: #055699;
   color: #fff;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -451,7 +452,7 @@ This class is added to the container
 }
 
 #menu #menu_bottom .is_active {
-  background-color: #f2b142;
+  background-color: #055699;
 }
 
 #menu #menu_bottom ul.main_menu {
@@ -478,7 +479,7 @@ This class is added to the container
 }
 
 #menu #menu_bottom ul.main_menu li:hover {
-  background-color: #f2b142;
+  background-color: #055699;
 }
 
 #menu #menu_bottom ul.main_menu li.has-item-down {
@@ -490,7 +491,7 @@ This class is added to the container
   position: absolute;
   opacity: 0;
   display: none;
-  background-color: #f2b142;
+  background-color: #055699;
   top: 100%;
   left: 0;
   z-index: 9;
@@ -542,7 +543,7 @@ This class is added to the container
 
 #menu #menu_bottom ul.main_menu ul.menu-search li.li-search a {
   padding: 16px;
-  background-color: #f2b142;
+  background-color: #055699;
   color: #fff;
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -587,24 +588,36 @@ This class is added to the container
   padding-bottom: 30px;
 }
 
-#h_1 .content-middle {
+#h_1 .one-product {
+  padding-bottom: 20px;
+}
+
+#h_1 .one-product .content-middle {
   height: 218px;
   overflow: hidden;
 }
 
-#h_1 h6 {
+#h_1 .one-product .title {
+  text-transform: lowercase;
   color: #055699;
   font-size: 18px;
+  height: 70px;
+  padding: 10px;
+  font-weight: bold;
 }
 
-#h_1 h5 {
-  font-size: 28px;
+#h_1 .one-product .title::first-letter {
+  text-transform: capitalize;
 }
 
-#h_1 .btn-xemthem {
-  position: absolute;
-  bottom: -3px;
-  left: 5%;
+#h_1 .one-product .description {
+  line-height: 1.5;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+#h_1 .one-product .btn-xemthem {
+  margin-left: 5px;
   padding: 10px 20px;
   border-radius: 3px;
   border: none;
@@ -656,7 +669,7 @@ This class is added to the container
 
 #contact_info .contact_top h3.title {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 #contact_info .contact_top p {
@@ -670,11 +683,11 @@ This class is added to the container
   margin-bottom: 20px;
 }
 
-#contact_info .contact_top ul {
+#contact_info div#contact_content ul {
   list-style: none;
 }
 
-#contact_info .contact_top ul li i {
+#contact_info div#contact_content ul li i {
   margin-right: 10px;
 }
 

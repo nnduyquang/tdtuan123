@@ -60,10 +60,7 @@
             <div class="col-md-12 text-center bg-transparent">
                 <h5 class="text-white">FORM ỨNG TUYỂN NHANH</h5>
 
-                <p class="text-white pl-lg-5 pr-lg-5 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Aspernatur assumenda beatae
-                    cum cumque deserunt distinctio dolores, eos, eveniet excepturi fugit iure molestiae natus
-                    perspiciatis quia quidem sit velit vero voluptate!</p>
+                <p class="text-white pl-lg-5 pr-lg-5 pb-4"></p>
 
                 <div class="row">
                     <div class="col-md-4">

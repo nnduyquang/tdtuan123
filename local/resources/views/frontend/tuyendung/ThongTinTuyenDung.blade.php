@@ -116,7 +116,9 @@
                 <div class="content">
                     {!! $data['getDetailTuyenDung']->content !!}
                 </div>
-                <a href="">ỨNG TUYỂN VỊ TRÍ</a>
+                <div class="mt-3" style="width: fit-content;margin: auto">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSemOD1ouJ39yK9cz6JHhX9E_D6X29S9z54Eilu1BSN10KqilA/viewform?usp=sf_link">ỨNG TUYỂN VỊ TRÍ</a>
+                </div>
 
             </div>
 
@@ -124,6 +126,7 @@
             <style>
                 #fe_TD_phucloi h4 {
                     position: relative;
+                    font-family: 'Lalezar', cursive;
                     /*width: fit-content;*/
                 }
 
@@ -132,9 +135,21 @@
                     content: '';
                     height: 1px;
                     width: 100%;
+                    background-color: #2a2a2a;
+                    bottom: 8px;
+                }
+
+                #fe_TD_phucloi h4:after {
+                    position: absolute;
+                    content: '';
+                    height: 3px;
+                    width: 30%;
+                    transform: skew(20deg);
+                    left: -2px;
                     background-color: #0d95e8;
                     bottom: 8px;
                 }
+
             </style>
 
             <div class="col-md-3" id="fe_TD_phucloi">

@@ -47,7 +47,7 @@
                                         <div class="d-flex flex-column pl-1">
                                             <a href="{{URL::asset('/tuyen-dung/'.$item->path)}}" class="text-center mr-1"
                                                style="line-height: 20px">CHI TIẾT</a>
-                                            <a href="" class="text-center">ỨNG TUYỂN</a>
+                                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSemOD1ouJ39yK9cz6JHhX9E_D6X29S9z54Eilu1BSN10KqilA/viewform?usp=sf_link" class="text-center">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
                                 </div>
