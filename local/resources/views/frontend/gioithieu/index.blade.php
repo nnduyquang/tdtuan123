@@ -245,7 +245,7 @@
                                 <span class="text-primary"> Địa chỉ: </span> Số 109 Trường Chinh, Đống Đa, Hà Nội. <br>
                                 <span class="text-primary"> Trụ sở miền Nam:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM. <br>
 
-                                <span class="text-danger">Hotline:</span> 0984.929.097 – 0906.037.688 - 0962.383.611 <br>
+                                <span class="text-danger">Hotline:</span> 0984.929.097 – 0906.037.688 - 0962.383.611 -  0962.038.484 <br>
                             </p>
 
                         </div>
