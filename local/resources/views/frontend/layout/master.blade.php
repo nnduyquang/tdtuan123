@@ -223,7 +223,7 @@
     </div>
 </div>
 <div class="mess_desk_bot d-none d-md-block">
-    <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> {{$dataPhone[1]}}
+    <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.03.8484
     </a>
 </div>
 </div>
@@ -327,7 +327,7 @@
         </div>
     </div>
     <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:0962.383.611" class="hotline-master"> 0962.383.611
+        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.383.611
         </a>
     </div>
 </div>
