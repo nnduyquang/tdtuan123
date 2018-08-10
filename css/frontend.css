@@ -575,6 +575,63 @@ This class is added to the container
   font-size: 25px;
 }
 
+div#phone4 .mess_desk_bot {
+  position: fixed;
+  bottom: 58px;
+  left: 55%;
+  z-index: 2;
+}
+
+div#phone4 .mess_desk_bot a.hotlisne-master {
+  border-top: 2px #00bbff solid;
+  background-color: #0b2e13;
+  color: white;
+  padding: 11px;
+  border-radius: 12px;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div#phone3 .mess_desk_bot {
+  position: fixed;
+  bottom: 58px;
+  left: 31%;
+  z-index: 2;
+}
+
+div#phone3 .mess_desk_bot a.hotlisne-master {
+  border-top: 2px #00bbff solid;
+  background-color: #0b2e13;
+  color: white;
+  padding: 11px;
+  border-radius: 12px;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div#phone2 .mess_desk_bot {
+  position: fixed;
+  bottom: 58px;
+  left: 6%;
+  z-index: 2;
+}
+
+div#phone2 .mess_desk_bot a.hotlisne-master {
+  border-top: 2px #00bbff solid;
+  background-color: #0b2e13;
+  color: white;
+  padding: 11px;
+  border-radius: 12px;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
 #h_1 {
   min-height: 338px;
   background-color: white;

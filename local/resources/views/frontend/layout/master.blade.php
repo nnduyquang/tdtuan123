@@ -150,8 +150,8 @@
 
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
-                            <li><a class="{{ request()->is('/') ? 'active' : '' }}" id="tl_tc"
-                                   href="{{URL::asset('/')}}">TRANG CHỦ</a></li>
+                            <li><a class="{{ request()->is('') ? 'active' : '' }}" id="tl_tc"
+                                   href="{{URL::asset('')}}">TRANG CHỦ</a></li>
                             <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
                             <li><a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
                             <li>
@@ -196,6 +196,8 @@
 @php
     $dataPhone=explode("-",$listFrontendCommon['configPhone']);
 @endphp
+
+<div id="phone1">
 <div class="callback d-lg-none d-md-none">
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
@@ -212,9 +214,122 @@
                                                                             aria-hidden="true"></i></a>
     </div>
 </div>
+<div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
+    <div class="phone_animation">
+        <div class="phone_animation_circle"></div>
+        <div class="phone_animation_circle_fill"></div>
+        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                   aria-hidden="true"></i></a>
+    </div>
+</div>
 <div class="mess_desk_bot d-none d-md-block">
     <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> {{$dataPhone[1]}}
     </a>
+</div>
+</div>
+
+<style>
+
+</style>
+
+<div id="phone2">
+    <div class="callback d-lg-none d-md-none">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 167px;bottom: -30px;left:inherit">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 167px;bottom: -30px;left:inherit">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="mess_desk_bot d-none d-md-block">
+        <a href="tel:0984.929.097" class="hotline-master"> 0984.929.097
+        </a>
+    </div>
+</div>
+
+<style>
+
+</style>
+
+<div id="phone3">
+    <div class="callback d-lg-none d-md-none">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 25%;bottom: -30px;">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 25%;bottom: -30px;">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="mess_desk_bot d-none d-md-block">
+        <a href="tel:0906.037.688" class="hotline-master"> 0906.037.688
+        </a>
+    </div>
+</div>
+<style>
+
+</style>
+
+<div id="phone4">
+    <div class="callback d-lg-none d-md-none">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="mess_desk_bot d-none d-md-block">
+        <a href="tel:0962.383.611" class="hotline-master"> 0962.383.611
+        </a>
+    </div>
 </div>
 
 
