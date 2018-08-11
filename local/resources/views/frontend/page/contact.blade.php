@@ -120,7 +120,7 @@
                     <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</p></li>
                     <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> ÂN ĐỨC NHÂN:</span> 0906 037 688 - 0166 699 899.</p></li>
                     <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> TRẦN MINH TÙNG:</span> 0962 383 611 - 0983 185 377.</p></li>
-                    <li><p><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</p></li>
+                    {{--<li><p><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</p></li>--}}
                 </ul>
             </div>
             <div class="col-md-12">

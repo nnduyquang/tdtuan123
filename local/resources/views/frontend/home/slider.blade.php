@@ -134,8 +134,9 @@
             <img src="{{URL::asset('images/tintuc/3.jpg')}}" alt="">
 
             <div class="ung-tuyen">
-                <h4 class="animated fadeInRight"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
-                    KINH DOANH BĐS</h4>
+                <h4 class="animated fadeInRight"><SPAN>TUYỂN <br> NHÂN VIÊN
+                    KINH DOANH</SPAN>
+                    <br>BẤT ĐỘNG SẢN</h4>
 
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                     {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
@@ -154,9 +155,9 @@
             <img src="{{URL::asset('images/tintuc/2.jpg')}}" alt="">
 
             <div class="ung-tuyen">
-                <h4 class="animated fadeInRight"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
-                    KINH DOANH BĐS</h4>
-
+                <h4 class="animated fadeInRight"><SPAN>TUYỂN <br> NHÂN VIÊN
+                    KINH DOANH</SPAN>
+                    <br>BẤT ĐỘNG SẢN</h4>
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                 {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
                 {{--</p>--}}
@@ -171,9 +172,9 @@
             <img src="{{URL::asset('images/tintuc/1.jpg')}}" alt="">
 
             <div class="ung-tuyen">
-                <h4 class="animated fadeInRight"><SPAN>TUYỂN NHÂN VIÊN</SPAN> <br>
-                    KINH DOANH BĐS</h4>
-
+                <h4 class="animated fadeInRight"><SPAN>TUYỂN <br> NHÂN VIÊN
+                    KINH DOANH</SPAN>
+                    <br>BẤT ĐỘNG SẢN</h4>
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                 {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
                 {{--</p>--}}
