@@ -145,7 +145,7 @@
 
                 </p>
                 <div class="animated bounceInDown slow">
-                <a target="_blank" class="fe-h-utvt" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web">ỨNG TUYỂN VỊ TRÍ</a>
+                <a target="_blank" class="fe-h-utvt" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN VỊ TRÍ</a>
                 </div>
             </div>
 
@@ -164,7 +164,7 @@
                 <p class="mb-5 animated fadeInDown slow p-tnv">Công ty Bất động sản Tuấn 123. <br>
 
                 </p>
-                <a target="_blank" class="animated fadeInDown slow fe-h-utvt" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/viewform?edit_requested=true">ỨNG TUYỂN VỊ TRÍ</a>
+                <a target="_blank" class="animated fadeInDown slow fe-h-utvt" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
 
         </div>
@@ -181,7 +181,7 @@
                 <p class="mb-5 animated fadeInDown slow p-tnv">Công ty Bất động sản Tuấn 123.<br>
 
                 </p>
-                <a target="_blank" class="animated fadeInDown slow fe-h-utvt" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/viewform?edit_requested=true">ỨNG TUYỂN VỊ TRÍ</a>
+                <a target="_blank" class="animated fadeInDown slow fe-h-utvt" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
 
         </div>

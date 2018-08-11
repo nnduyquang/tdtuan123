@@ -49,8 +49,8 @@
         @if($cauhinh->name=='config-phone')
             <div class=" col-md-12">
                 <div class="form-group">
-                    <label style="font-weight: bold">Số Điện Thoại Liên Hệ:</label>
-                    {!! Form::text('config-phone', $cauhinh->content, array('placeholder' => '','class' => 'form-control')) !!}
+                    <label style="font-weight: bold">Số Điện Thoại Liên Hệ(Đây là số hotline ứng viên gọi trực tiếp trên giao diện điện thoại(vui lòng nhập 1 số)):</label>
+                    {!! Form::text('config-phone', $cauhinh->content, array('placeholder' => '','class' => 'form-control','style'=>'width: 20%;')) !!}
                     {{ Form::hidden('hd-config-phone', $cauhinh->content) }}
                 </div>
             </div>
@@ -85,9 +85,18 @@
         @if($cauhinh->name=='config-introduce')
             <div class=" col-md-12">
                 <div class="form-group">
-                    <label style="font-weight: bold">Giới Thiệu:</label>
+                    <label style="font-weight: bold">Giới Thiệu Trang Chủ:</label>
                     {!! Form::textarea('config-introduce',$cauhinh->content, array('placeholder' => 'Nội Dung','id'=>'description-page-introduce','class' => 'form-control','rows'=>'10','style'=>'resize:none')) !!}
                     {{ Form::hidden('hd-config-introduce', $cauhinh->content) }}
+                </div>
+            </div>
+        @endif
+        @if($cauhinh->name=='config-introduce-page')
+            <div class=" col-md-12">
+                <div class="form-group">
+                    <label style="font-weight: bold">Trang Giới Thiệu(gioi-thieu-tuan-123.html):</label>
+                    {!! Form::textarea('config-introduce-page',$cauhinh->content, array('placeholder' => 'Nội Dung','id'=>'description-page-introduce-page','class' => 'form-control','rows'=>'10','style'=>'resize:none')) !!}
+                    {{ Form::hidden('hd-config-introduce-page', $cauhinh->content) }}
                 </div>
             </div>
         @endif

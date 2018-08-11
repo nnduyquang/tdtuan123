@@ -56,5 +56,11 @@ class FrontendController extends Controller
         return view('frontend.page.index', compact('data'));
     }
 
+    public function getPageGioiThieu(){
+        $configs=Config::whereIn('name', ['config-introduce-page'])->first();
+        $data['content']=$configs->content;
+        return view('frontend.gioithieu.index', compact('data'));
+    }
+
 }
 

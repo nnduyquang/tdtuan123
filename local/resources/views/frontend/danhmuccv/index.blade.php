@@ -48,7 +48,7 @@
                                             <a href="{{URL::asset('/tuyen-dung/'.$item->path)}}"
                                                class="text-center mr-1"
                                                style="line-height: 20px">CHI TIẾT</a>
-                                            <a target="_blank" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web" class="text-center">ỨNG TUYỂN</a>
+                                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
                                 </div>

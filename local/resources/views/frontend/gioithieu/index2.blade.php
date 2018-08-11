@@ -257,60 +257,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 pt-4">
-                    {{--<div class="row">--}}
-                    {{--<div class="col-md-6">--}}
-                    {{--<h5 class="pb-3 pt-5 border-bottom mb-4">GIỚI THIỆU VỀ CÔNG TY</h5>--}}
-
-                    {{--<p>Công ty Bất động sản Tuấn 123 hiện đang là đơn vị chuyên Mua, Bán,--}}
-                    {{--Cho thuê nhà, đất thổ cư trên toàn Hà Nội. Với đội ngũ Chuyên viên--}}
-                    {{--kinh doanh và Quản lý giàu kinh nghiệm, năng động. Chế độ đãi ngộ tốt nhất.</p>--}}
-
-                    {{--<br>--}}
-
-                    {{--<p>TUẤN 123, không chăm sóc nhưng luôn luôn bảo vệ người mua, người mua có quyền được--}}
-                    {{--biết mình sắp mua bất động sản ở đâu ? như thế nào ? và của ai ? </p>--}}
-                    {{--<img src="{{URL::asset('images/bg/danhhieu.png')}}" alt="" style="width: 80%;height: auto">--}}
-                    {{--<br>--}}
-
-                    {{--<h6 style="font-size: 20px;font-weight: 600">BẢNG CỬU CHƯƠNG</h6>--}}
-
-                    {{--<p>--}}
-                    {{--9 Điều tinh túy được đúc kết lại để giúp anh em Môi giới Tuấn 123 có bản lĩnh, sẵn sàng có lời nói và hành động ra tiền.--}}
-                    {{--<br>--}}
-
-                    {{--1. Kiến thức Olympia.​ <br>--}}
-
-                    {{--2. Bán cái mình có.<br>--}}
-
-                    {{--3. Biết truy vấn đến cùng.<br>--}}
-
-                    {{--4. Muốn xe đạp à đòi xe máy.<br>--}}
-
-                    {{--5. Luôn nghi ngờ à xử lý nghi ngờ.<br>--}}
-
-                    {{--6. Ký hợp đồng phải đọc kỹ trước khi ký.<br>--}}
-
-                    {{--7. Chính nhân quân tử, được cho đi là niềm vui.<br>--}}
-
-                    {{--8. Kiềng 3 chân: Ông chủ nhà – Ông môi giới – Ông khách mua.<br>--}}
-
-                    {{--9. Biết né đòn, biết đá bóng, biết đưa về thế mạnh của mình.</p>--}}
-
-                    {{--<br>--}}
-
-                    {{--<p>--}}
-                    {{--<span class="text-primary">CÔNG TY TNHH BẤT ĐỘNG SẢN TUẤN 123</span> <br>--}}
-                    {{--<span class="text-primary"> Địa chỉ: </span> Số 109 Trường Chinh, Đống Đa, Hà Nội. <br>--}}
-                    {{--<span class="text-primary"> Trụ sở miền Nam:</span> 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM. <br>--}}
-
-                    {{--<span class="text-danger">Hotline:</span> 0984.929.097 – 0906.037.688 - 0962.383.611 -  0962.038.484 <br>--}}
-                    {{--</p>--}}
-
-                    {{--</div>--}}
-                    {{--<div class="col-md-6 pt-5">--}}
-                    {{--<img class="border shadow-sm" src="{{URL::asset('images/bg/28279146_835846503254010_2229504394337144951_n.jpg')}}" alt="" style="width: 100%;height: auto;padding: 2px;">--}}
-                    {{--</div>--}}
-                    {{--</div>--}}
                     <div class="borderwrapcon">
 
 
