@@ -140,8 +140,8 @@
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                     {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
                     {{--</p>--}}
-                <p class="mb-5 animated fadeInDown slow p-tnv">Nhấn để trở thành thành viên <br>
-                CTY BĐS TUẤN123
+                <p class="mb-5 animated fadeInDown slow p-tnv">Công ty Bất động sản Tuấn 123. <br>
+
                 </p>
                 <div class="animated bounceInDown slow">
                 <a target="_blank" class="fe-h-utvt" href="https://docs.google.com/forms/d/1_pe-GaGsWqO2J7T6ISkmqMY7jQqAHl-MgLIhD3E1hjk/edit?usp=drive_web">ỨNG TUYỂN VỊ TRÍ</a>
@@ -160,8 +160,8 @@
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                 {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
                 {{--</p>--}}
-                <p class="mb-5 animated fadeInDown slow p-tnv">Nhấn để trở thành thành viên <br>
-                    CTY BĐS TUẤN123
+                <p class="mb-5 animated fadeInDown slow p-tnv">Công ty Bất động sản Tuấn 123. <br>
+
                 </p>
                 <a class="animated fadeInDown slow fe-h-utvt" href="">ỨNG TUYỂN VỊ TRÍ</a>
             </div>
@@ -177,8 +177,8 @@
                 {{--<p class="mb-5 animated fadeInDown slow p-tnv">Trở thành một phần của chúng tôi, Để trải nghiệm một công việc theo cách riêng. <br>--}}
                 {{--Tận hưởng cuộc sống, tận hưởng công việc theo cách riêng của bạn.--}}
                 {{--</p>--}}
-                <p class="mb-5 animated fadeInDown slow p-tnv">Nhấn để trở thành thành viên <br>
-                    CTY BĐS TUẤN123
+                <p class="mb-5 animated fadeInDown slow p-tnv">Công ty Bất động sản Tuấn 123.<br>
+
                 </p>
                 <a class="animated fadeInDown slow fe-h-utvt" href="">ỨNG TUYỂN VỊ TRÍ</a>
             </div>

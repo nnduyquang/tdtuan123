@@ -150,7 +150,7 @@
 
                     <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
                         <ul>
-                            <li><a class="{{ request()->is('') ? 'active' : '' }}" id="tl_tc"
+                            <li><a class="{{ request()->is('/') ? 'active' : '/' }}" id="tl_tc"
                                    href="{{URL::asset('')}}">TRANG CHỦ</a></li>
                             <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
                             <li><a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
