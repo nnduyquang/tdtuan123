@@ -1,0 +1,29 @@
+.apply-hot-mobile {
+  position: fixed;
+  bottom: 67px;
+  right: 27px;
+  z-index: 2;
+  a {
+    background-color: #FFE202;
+    color: black;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}
+
+.apply-hot-desktop {
+  position: fixed;
+  bottom: 135px;
+  right: 27px;
+  z-index: 2;
+  a {
+    background-color: #FFE202;
+    color: black;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+}

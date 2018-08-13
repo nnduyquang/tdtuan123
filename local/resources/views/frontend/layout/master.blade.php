@@ -101,11 +101,11 @@
 
     @media screen and (max-width: 1000px) and (min-width: 320px) {
 
-        .fe-l-master-slogan{
+        .fe-l-master-slogan {
             display: none;
         }
 
-        .slogan-cty p{
+        .slogan-cty p {
             line-height: 33px;
         }
 
@@ -122,13 +122,13 @@
         <div class="row">
             <div class="col-md-12 pt-2 pb-1 d-flex justify-content-between align-items-center">
                 <p class="text-light main-font" style="font-size: 14px">
-                    Welcome to BĐS TUẤN 123
+                    Welcome to BẤT ĐỘNG SẢN TUẤN 123
                 </p>
 
                 <div class="main-font text-light sc-nw">
-                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                    <a href=""><i class="fab fa-youtube"></i></a>
-                    <a href=""><i class="fas fa-envelope"></i></a>
+                    {{--<a href=""><i class="fab fa-facebook-f"></i></a>--}}
+                    {{--<a href=""><i class="fab fa-youtube"></i></a>--}}
+                    {{--<a href=""><i class="fas fa-envelope"></i></a>--}}
                 </div>
             </div>
         </div>
@@ -152,12 +152,16 @@
                         <ul>
                             <li><a class="{{ request()->is('/') ? 'active' : '/' }}" id="tl_tc"
                                    href="{{URL::asset('')}}">TRANG CHỦ</a></li>
-                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}" href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
-                            <li><a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}" href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
+                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}"
+                                   href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
+                            <li>
+                                <a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}"
+                                   href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
                             <li>
                                 <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung/*')) ? 'active' : '' }}"
                                    href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
-                            <li><a class="{{ request()->is('lien-he.html') ? 'active' : '' }}" href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
+                            <li><a class="{{ request()->is('lien-he.html') ? 'active' : '' }}"
+                                   href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
                         </ul>
                     </div>
                 </div>
@@ -198,34 +202,44 @@
 @endphp
 
 <div id="phone1">
-<div class="callback d-lg-none d-md-none">
-    <div class="phone_animation">
-        <div class="phone_animation_circle"></div>
-        <div class="phone_animation_circle_fill"></div>
-        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                            aria-hidden="true"></i></a>
+    <div class="callback d-lg-none d-md-none">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
     </div>
-</div>
-<div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
-    <div class="phone_animation">
-        <div class="phone_animation_circle"></div>
-        <div class="phone_animation_circle_fill"></div>
-        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                            aria-hidden="true"></i></a>
+    <div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
     </div>
-</div>
-<div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
-    <div class="phone_animation">
-        <div class="phone_animation_circle"></div>
-        <div class="phone_animation_circle_fill"></div>
-        <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                   aria-hidden="true"></i></a>
+    <div class="callback d-none d-md-block" style="right: 167px;bottom: -30px;left:inherit">
+        <div class="phone_animation">
+            <div class="phone_animation_circle"></div>
+            <div class="phone_animation_circle_fill"></div>
+            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+                                                                                       aria-hidden="true"></i></a>
+        </div>
     </div>
-</div>
-<div class="mess_desk_bot d-none d-md-block">
-    <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.03.8484
-    </a>
-</div>
+    <div class="mess_desk_bot d-none d-md-block">
+        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.03.8484
+        </a>
+    </div>
+    <div class="apply-hot-mobile d-lg-none d-md-none">
+        <a target="_blank"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG
+            TUYỂN NHANH</a>
+    </div>
+    <div class="apply-hot-desktop d-none d-md-block">
+        <a target="_blank"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG
+            TUYỂN NHANH</a>
+    </div>
 </div>
 
 <style>
