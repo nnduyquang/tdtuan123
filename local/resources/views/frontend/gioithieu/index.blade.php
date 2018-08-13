@@ -315,23 +315,23 @@
                 </div>
             </div>
         </div>
-        @stop
+    </div>
+@stop
+@section('java-scripts')
+    <script type="text/javascript">
 
-        @section('java-scripts')
-            <script type="text/javascript">
-
-                $(document).ready(function () {
-
-
-                })
+        $(document).ready(function () {
 
 
-            </script>
-
-            <script>
+        })
 
 
-            </script>
+    </script>
+
+    <script>
+
+
+    </script>
 
 
 

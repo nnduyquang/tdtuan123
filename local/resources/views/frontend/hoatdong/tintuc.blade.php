@@ -91,9 +91,9 @@
                             </div>
                         </div>
                     @endforeach
-                    <div class="col-md-12 text-center pt-4">
-                        <a class="xem-tat-ca-hd" href="">XEM TẤT CẢ</a>
-                    </div>
+                    {{--<div class="col-md-12 text-center pt-4">--}}
+                        {{--<a class="xem-tat-ca-hd" href="">XEM TẤT CẢ</a>--}}
+                    {{--</div>--}}
                 </div>
             </div>
             <div class="col-md-4" id="fe_hd_right">
