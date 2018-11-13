@@ -63,18 +63,19 @@
     }
 
     #fe_h_ttct a.ut-vitri {
-        color: white;
         padding: 10px 20px;
         border-radius: 3px;
-        background: linear-gradient(-90deg, #0a6287, #0d95e8);
+        background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+        color: yellow;
         transition: .3s;
     }
 
     #fe_h_ttct a.ut-vitri:hover {
-        color: white;
+
         padding: 10px 20px;
         border-radius: 3px;
-        background: linear-gradient(-90deg, #0a6287, #0d95e8);
+        background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+        color: yellow;
         transition: .3s;
     }
 

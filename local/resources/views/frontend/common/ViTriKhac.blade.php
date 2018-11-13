@@ -9,6 +9,7 @@
         font-size: 19px;
         position: relative;
         padding-bottom: 10px;
+        text-transform: uppercase;
     }
 
     div#fe_td_ViTriKhac h5:before {
@@ -51,6 +52,13 @@
         margin: auto;
         border-radius: 3px;
     }
+
+    .fe-td-vitrikhac a.btn-vitri{
+        padding: 8px;
+        background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+        color: yellow;
+        border-radius: 3px;
+    }
 </style>
 
 <div class="container-fluid main-font" id="fe_td_ViTriKhac">
@@ -71,8 +79,11 @@
 
                             <p class="pt-3 pb-3 border-light border-top">{!! $item->description !!}
                             </p>
-
-                            <a href="{{URL::to('tuyen-dung/'.$item->path)}}">XEM CHI TIẾT...!</a>
+                        </div>
+                        <div class="text-center mb-3">
+                            <a class="btn-vitri" href="{{URL::to('tuyen-dung/'.$item->path)}}">XEM CHI TIẾT</a>
+                            <a class="btn-vitri" href="{{URL::to('tuyen-dung/'.$item->path)}}">ỨNG TUYỂN NGAY
+                            </a>
                         </div>
                     </div>
                 @endforeach

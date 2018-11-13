@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Bevan|Yeseva+One');
+.loiph-slider {
+  .carousel-control-prev {
+    color: #454545;
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+  }
+  h5 {
+    font-size: 46px;
+    font-family: 'Lalezar', cursive;
+    color: #2a2a2a;
+  }
+  span {
+    font-size: 22px;
+    color: #2a2a2a;
+  }
+  p {
+    color: #2a2a2a;
+    font-size: 16px;
+    padding-top: 13px;
+  }
+  button {
+    margin-top: 16px;
+    padding: 15px 18px;
+    border: none;
+    background-color: #2a2a2a;
+    color: white;
+    cursor: pointer;
+    transition: .8s;
+    &:hover {
+      background-color:red;
+    }
+  }
+}

@@ -46,8 +46,8 @@
         padding: 10px 20px;
         border-radius: 3px;
         margin-top: 30px;
-        color: white;
-        background: linear-gradient(-90deg, #0a6287, #0d95e8);
+        background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+        color: yellow;
     }
 
 
@@ -60,9 +60,11 @@
             <div class="col-md-12 text-center bg-transparent">
                 <h5 class="text-white">FORM ỨNG TUYỂN NHANH</h5>
 
-                <p class="text-white pl-lg-5 pr-lg-5 pb-4"></p>
+                <p class="text-white pl-lg-5 pr-lg-5 pb-4">
+                    {{--Để lại thông tin tên và số điện thoại chúng tôi sẽ liên hệ với bạn.--}}
+                </p>
 
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="ip-name input-group">
                             <input class="form-control input-text" placeholder="Tên Của Bạn" name="name" type="text"
@@ -72,6 +74,8 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="row justify-content-center">
                     <div class="col-md-4">
                         <div class="ip-phone input-group">
                             <input class="form-control input-text" placeholder="Số Điện Thoại" name="phone" type="text"
@@ -81,28 +85,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="ip-email input-group">
-                            <input class="form-control input-text" placeholder="Email" name="email" type="text" value="">
-                            <div class="invalid-feedback">
-                                Please choose a Email.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="ip-contentMail input-group">
-                    <textarea class="form-control input-area p-3 mb-5" placeholder="Vị trí ứng tuyển, và sơ lược bản thân" name="contentMail" cols="50"
-                              rows="6"></textarea>
-                            <div class="invalid-feedback">
-                                Please choose a Email.
-                            </div>
-                        </div>
+                    {{--<div class="col-md-4">--}}
+                        {{--<div class="ip-email input-group">--}}
+                            {{--<input class="form-control input-text" placeholder="Email" name="email" type="text" value="">--}}
+                            {{--<div class="invalid-feedback">--}}
+                                {{--Please choose a Email.--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="col-md-12">--}}
+                        {{--<div class="ip-contentMail input-group">--}}
+                    {{--<textarea class="form-control input-area p-3 mb-5" placeholder="Vị trí ứng tuyển, và sơ lược bản thân" name="contentMail" cols="50"--}}
+                              {{--rows="6"></textarea>--}}
+                            {{--<div class="invalid-feedback">--}}
+                                {{--Please choose a Email.--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
 
 
-                    </div>
+                    {{--</div>--}}
+
+                </div>
+                <div class="row">
                     <div class="col-md-12">
                         <div class="button-group">
-                            <button id="btnSendMail" type="button" class="btn btn-contact">Gửi Liên Hệ<i
+                            <button id="btnSendMail" type="button" class="btn btn-contact">GỬI LIÊN HỆ<i
                                         class="fa fa-spinner fa-spin fa-3x fa-fw loadingSending" style="
     font-size: 15px;display: none"></i><i
                                         class="fa fa-check-circle successSending" style="display: none"

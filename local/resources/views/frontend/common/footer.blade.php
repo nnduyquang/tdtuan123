@@ -177,12 +177,11 @@
                 <h6 style="font-size: 19px;margin-bottom: 20px">CÔNG TY CỔ PHẦN BẤT ĐỘNG SẢN TUẤN 123</h6>
                 <ul>
                     {{--<li><a href=""><i class="far fa-envelope"></i> congtycophantuan123@gmail.com</a></li>--}}
+                    <li><a href=""><i class="fas fa-phone"></i> 035 473 5562 Thu Nhàn</a></li>
                     <li><a href=""><i class="fas fa-phone"></i> 0984 929 097 - 0908 074 446 Phạm Thanh Tuân</a></li>
-                    <li><a href=""><i class="fas fa-phone"></i> 0906 037 688 - 0166 699 899  Ân Đức Nhân</a></li>
-                    <li><a href=""><i class="fas fa-phone"></i> 0962 383 611 - 0963 185 377  Trần Minh Tùng</a></li>
-                    <li><a href=""><i class="fas fa-phone"></i> 0962 03 8484 - 0948 104 812  Lê Bá Hiển</a></li>
-                    <li><a href=""><i class="fas fa-map-marker-alt"></i> TỔNG CÔNG TY: 109 Trường Chinh - Đống Đa - Hà Nội. </a></li>
-                    <li><a href=""><i class="fas fa-map-marker-alt"></i> TRỤ SỞ MIỀN NAM: 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM. </a></li>
+                    <li><a href=""><i class="far fa-envelope"></i> Email: thunhan260196@gmail.com</a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i> TP.HỒ CHÍ MINH: 202B Hoàng Văn Thụ Phường 9 Quận Phú Nhuận TP.HCM. </a></li>
+                    <li><a href=""><i class="fas fa-map-marker-alt"></i> HÀ NỘI: 109 Trường Chinh - Đống Đa - Hà Nội. </a></li>
                     <li><img src="http://online.gov.vn/PublicImages/2015/08/27/11/20150827110756-dathongbao.png" alt="" style="width: 68%;height: auto;"></li>
 
                 </ul>

@@ -25,78 +25,11 @@
         font-family: 'Fira Sans Condensed', sans-serif;
     }
 
-    #fe_h_welcome {
-        background-color: #055699;
-    }
-
-    .sc-nw a i {
-        margin-right: 10px;
-        transition: .3s;
-    }
-
-    .sc-nw a i.fa-facebook-f:hover {
-        color: #0594d2;
-    }
-
-    .sc-nw a i.fa-youtube:hover {
-        color: #f01802;
-    }
-
-    .sc-nw a {
-        color: white;
-    }
-
-    .sc-nw a:hover {
-        text-decoration: none;
-    }
-
-    div#menu_top {
-        position: absolute;
-        z-index: 10;
-        top: 100%;
+    .sticky {
+        position: fixed;
+        top: 0;
         width: 100%;
-        background-color: rgba(255, 255, 255, 0.9);
-        transition: .3s;
-    }
-
-    div#menu_top .logo-bdstuan123 {
-        height: 86px;
-        width: auto;
-    }
-
-    div.menu-content ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-
-    div.menu-content ul li {
-        display: inline-flex;
-        margin-right: -2px;
-    }
-
-    div.menu-content ul li a {
-        color: #055699;
-        padding: 35px 16px;
-        transition: .3s;
-    }
-
-    div.menu-content ul li a:hover {
-        text-decoration: none;
-        background-color: #055699;
-        color: white;
-    }
-
-    div.menu-content ul li a.active {
-        text-decoration: none;
-        background-color: #055699;
-        color: white;
-    }
-
-    .slogan-cty p {
-        color: #055699;
-        font-size: 26px;
-        font-weight: 600;
+        z-index: 99;
     }
 
     @media screen and (max-width: 1000px) and (min-width: 320px) {
@@ -117,61 +50,9 @@
 
 </header>
 
-<div class="container-fluid position-relative p-0" id="fe_h_welcome">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 pt-2 pb-1 d-flex justify-content-between align-items-center">
-                <p class="text-light main-font" style="font-size: 14px">
-                    Welcome to BẤT ĐỘNG SẢN TUẤN 123
-                </p>
-
-                <div class="main-font text-light sc-nw">
-                    {{--<a href=""><i class="fab fa-facebook-f"></i></a>--}}
-                    {{--<a href=""><i class="fab fa-youtube"></i></a>--}}
-                    {{--<a href=""><i class="fas fa-envelope"></i></a>--}}
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="menu_top" class="shadow-sm">
-        <div class="container p-0">
-            <div class="row">
-                <div class="col-md-12 d-lg-flex justify-content-lg-between">
-
-                    <div class="d-flex align-items-center">
-                        <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt=""
-                             class="logo-bdstuan123 align-self-center">
-                        <div class="main-font slogan-cty">
-                            <p class="pb-1">TUYỂN DỤNG NHÂN VIÊN BĐS TUẤN 123</p>
-                            <span class="mr-3 text-danger fe-l-master-slogan">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
-                        </div>
-                    </div>
-
-                    <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
-                        <ul>
-                            <li><a class="{{ request()->is('/') ? 'active' : '/' }}" id="tl_tc"
-                                   href="{{URL::asset('')}}">TRANG CHỦ</a></li>
-                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}"
-                                   href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
-                            <li>
-                                <a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}"
-                                   href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
-                            <li>
-                                <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung/*')) ? 'active' : '' }}"
-                                   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
-                            <li><a class="{{ request()->is('lien-he.html') ? 'active' : '' }}"
-                                   href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</div>
 
 <div id="blurrMe">
+    @include('frontend.common.menu.menu')
     @include('frontend.common.menu.m-menu')
     @yield('slider')
     @yield('container')
@@ -227,7 +108,7 @@
         </div>
     </div>
     <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.03.8484
+        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 035 437 5562
         </a>
     </div>
     <div class="apply-hot-mobile d-lg-none d-md-none">
@@ -242,111 +123,53 @@
     </div>
 </div>
 
-<style>
-
-</style>
-
-<div id="phone2">
-    <div class="callback d-lg-none d-md-none">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 167px;bottom: -30px;left:inherit">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 167px;bottom: -30px;left:inherit">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:0984.929.097" class="hotline-master"> 0984.929.097
-        </a>
-    </div>
-</div>
-
-<style>
-
-</style>
-
-<div id="phone3">
-    <div class="callback d-lg-none d-md-none">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 25%;bottom: -30px;">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 25%;bottom: -30px;">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:0906.037.688" class="hotline-master"> 0906.037.688
-        </a>
-    </div>
-</div>
-<style>
-
-</style>
-
-<div id="phone4">
-    <div class="callback d-lg-none d-md-none">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">
-        <div class="phone_animation">
-            <div class="phone_animation_circle"></div>
-            <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
-                                                                                       aria-hidden="true"></i></a>
-        </div>
-    </div>
-    <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 0962.383.611
-        </a>
-    </div>
-</div>
+{{--<div id="phone4">--}}
+    {{--<div class="callback d-lg-none d-md-none">--}}
+        {{--<div class="phone_animation">--}}
+            {{--<div class="phone_animation_circle"></div>--}}
+            {{--<div class="phone_animation_circle_fill"></div>--}}
+            {{--<a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"--}}
+                                                                                       {{--aria-hidden="true"></i></a>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">--}}
+        {{--<div class="phone_animation">--}}
+            {{--<div class="phone_animation_circle"></div>--}}
+            {{--<div class="phone_animation_circle_fill"></div>--}}
+            {{--<a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"--}}
+                                                                                       {{--aria-hidden="true"></i></a>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="callback d-none d-md-block" style="left: 49%;bottom: -30px;">--}}
+        {{--<div class="phone_animation">--}}
+            {{--<div class="phone_animation_circle"></div>--}}
+            {{--<div class="phone_animation_circle_fill"></div>--}}
+            {{--<a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"--}}
+                                                                                       {{--aria-hidden="true"></i></a>--}}
+        {{--</div>--}}
+    {{--</div>--}}
+    {{--<div class="mess_desk_bot d-none d-md-block">--}}
+        {{--<a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 035 437 5562--}}
+        {{--</a>--}}
+    {{--</div>--}}
+{{--</div>--}}
 
 
 </body>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop+50;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
 @yield('java-scripts')
+
 </Html>

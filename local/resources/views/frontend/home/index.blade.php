@@ -13,12 +13,12 @@
 @section('slider')
 
     @include('frontend.home.slider')
+    @include('frontend.common.m-slider')
     @include('frontend.home.h_1')
     @include('frontend.home.h_2')
 
 @stop
 @section('container')
-
 
     @include('frontend.common.contact_middle')
     {{--@include('frontend.home.NhanVienTieuBieu')--}}
@@ -31,8 +31,6 @@
     <script type="text/javascript">
 
         $(document).ready(function () {
-
-
 
             $('#owl_1').owlCarousel({
                 animateOut: 'fadeOut',
@@ -153,7 +151,7 @@
                     suffix: '%'
                 };
                 var numHs1 = new CountUp("counter-number1", 0, 1000, 0, 2,options1);
-                var numHs2 = new CountUp("counter-number2", 0, 500, 0, 2,options1);
+                var numHs2 = new CountUp("counter-number2", 0, 3000, 0, 2,options1);
                 var numHs3 = new CountUp("counter-number3", 0, 2000, 0, 2.2, options1);
                 var numHs4 = new CountUp("counter-number4", 0, 10, 0, 2,options1);
                 numHs1.start();

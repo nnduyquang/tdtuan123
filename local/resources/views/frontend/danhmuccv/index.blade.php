@@ -19,6 +19,52 @@
 @stop
 @section('container')
 
+
+    <style>
+        div#fe_gt_slogan {
+            background-image: url('images/bg/twitter.jpg');
+            -webkit-background-size: cover;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        div#fe_gt_slogan h5 {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: 'Lalezar', cursive;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan p {
+            font-size: 19px;
+            font-weight: normal;
+            position: relative;
+            width: fit-content;
+            margin: auto;
+        }
+
+        div#fe_gt_slogan h5:before {
+            position: absolute;
+            content: '';
+            height: 1px;
+            width: 38%;
+            background-color: #0d95e8;
+            bottom: -1px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        #fe_danhmuccv_danhmucvitri a.btn-vitri{
+            background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+            color: yellow;
+            cursor: pointer;
+            padding: 8px 12px;
+        }
+    </style>
+
+
     <div class="container-fluid main-font pt-5 pb-5" id="fe_danhmuccv_danhmucvitri">
         <div class="container">
             <div class="row">
@@ -46,9 +92,9 @@
                                         {{--</div>--}}
                                         <div class="d-flex flex-column pl-1">
                                             <a href="{{URL::asset('/tuyen-dung/'.$item->path)}}"
-                                               class="text-center mr-1"
+                                               class="text-center mr-1 btn-vitri"
                                                style="line-height: 20px">CHI TIẾT</a>
-                                            <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN</a>
+                                            <a class=" btn-vitri" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
                                 </div>
@@ -86,42 +132,6 @@
 
     {{--@include('frontend.tuyendung.UngTuyenNhanh')--}}
 
-    <style>
-        div#fe_gt_slogan {
-            background-image: url('images/bg/twitter.jpg');
-            -webkit-background-size: cover;
-            background-size: cover;
-            background-position: center center;
-        }
-
-        div#fe_gt_slogan h5 {
-            font-size: 22px;
-            font-weight: 600;
-            font-family: 'Lalezar', cursive;
-            position: relative;
-            width: fit-content;
-            margin: auto;
-        }
-
-        div#fe_gt_slogan p {
-            font-size: 19px;
-            font-weight: normal;
-            position: relative;
-            width: fit-content;
-            margin: auto;
-        }
-
-        div#fe_gt_slogan h5:before {
-            position: absolute;
-            content: '';
-            height: 1px;
-            width: 38%;
-            background-color: #0d95e8;
-            bottom: -1px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    </style>
 
     <div class="container-fluid main-font" id="fe_gt_slogan">
         <div class="container">

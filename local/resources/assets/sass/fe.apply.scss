@@ -4,10 +4,9 @@
   right: 27px;
   z-index: 2;
   a {
-    background-color: #FFE202;
-    color: black;
+    background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+    color: yellow;
     padding: 20px;
-    border: 1px solid red;
     border-radius: 5px;
     font-weight: bold;
   }
@@ -19,10 +18,10 @@
   right: 27px;
   z-index: 2;
   a {
-    background-color: #FFE202;
-    color: black;
+    background: linear-gradient(-90deg, #bb0c03, #ff1c10);
+    color: yellow;
     padding: 20px;
-    border: 1px solid red;
+    //border: 1px solid red;
     border-radius: 5px;
     font-weight: bold;
   }

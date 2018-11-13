@@ -22,11 +22,26 @@
     color: #015b8e;
     line-height: 23px;
   }
-  .description p{
+  .description p {
     line-height: 1.5;
   }
 }
+.img-ceo{
+  position: relative;
+  z-index: 1;
+}
+.img-ceo:before {
+  content: '';
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  position: absolute;
+  width: 96%;
+  height: 98%;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-.img-mr-tuyendung{
+.img-mr-tuyendung {
 
 }

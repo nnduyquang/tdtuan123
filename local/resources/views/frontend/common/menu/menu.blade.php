@@ -1,71 +1,126 @@
-<div id="menu" class="container-fluid p-0 d-none d-md-block">
-    {{--<div id="menu_top">--}}
-        {{--<div class="container">--}}
-            {{--<div class="col-md-12">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-md-7 justify-content-left align-self-center text-left">--}}
-                        {{--<span><i class="fa fa-phone" aria-hidden="true"></i> 0962.599.482</span>--}}
-                        {{--<span><i class="fa fa-home" aria-hidden="true"></i> 809 Lũy Bán Bích, Tân Thành, Tân Phú, TPHCM</span>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-2 p-0">--}}
-                        {{--{{ Html::image('images/temps/logo/logo_demo.png','',array('class'=>'menu_logo'))}}--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-5 pl-0">--}}
-                        {{--<div class="col-md-8 float-right">--}}
-                            {{--<ul class="menu-search">--}}
-                                {{--<li><a href="#" id="clickSearch"><i class="fa fa-search" aria-hidden="true"></i></a>--}}
-                                {{--</li>--}}
-                                {{--<li style="width: 100%">--}}
-                                    {{--{!! Form::open(array('route' => 'search','method'=>'POST','id'=>'formSearch')) !!}--}}
-                                    {{--{!! Form::text('key-search', '', array('placeholder' => 'Tìm Kiếm','class' => 'form-control','id'=>'searchInput')) !!}--}}
-                                    {{--{!! Form::close() !!}--}}
-                                {{--</li>--}}
-                            {{--</ul>--}}
-                        {{--</div>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-md-6 justify-content-center align-self-center text-right">--}}
-                        {{--<span><i class="fa fa-phone" aria-hidden="true"></i> 0965.322.239 - 0901.196.676</span>--}}
-                        {{--<span><i class="fa fa-home" aria-hidden="true"></i> 55/4 KP3 Hà Huy Giáp, Q.12, TPHCM</span>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</div>--}}
-    <div id="menu_logo_center col-md-12">
-        <div class="container">
-            {{ Html::image('images/logo/logo_center.png','',array('class'=>'menu_logo'))}}
+<style>
+    #fe_h_welcome {
+        background-color: #0594d2;
+    }
+
+    .sc-nw a i {
+        margin-right: 10px;
+        transition: .3s;
+    }
+
+    .sc-nw a i.fa-facebook-f:hover {
+        color: #0594d2;
+    }
+
+    .sc-nw a i.fa-youtube:hover {
+        color: #f01802;
+    }
+
+    .sc-nw a {
+        color: white;
+    }
+
+    .sc-nw a:hover {
+        text-decoration: none;
+    }
+
+    div#menu_top {
+        /*position: absolute;*/
+        /*z-index: 10;*/
+        /*top: 100%;*/
+        /*width: 100%;*/
+        background-color: rgba(255, 255, 255, 1);
+        transition: .3s;
+    }
+
+    div#menu_top .logo-bdstuan123 {
+        height: 86px;
+        width: auto;
+    }
+
+    div.menu-content ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    div.menu-content ul li {
+        display: inline-flex;
+        margin-right: -2px;
+    }
+
+    div.menu-content ul li a {
+        color: #0594d2;
+        padding: 35px 16px;
+        transition: .3s;
+    }
+
+    div.menu-content ul li a:hover {
+        text-decoration: none;
+        background-color: #0594d2;
+        color: white;
+    }
+
+    div.menu-content ul li a.active {
+        text-decoration: none;
+        background-color: #0594d2;
+        color: white;
+    }
+
+    .slogan-cty p {
+        color: #0594d2;
+        font-size: 26px;
+        font-weight: 600;
+    }
+</style>
+<div class="container-fluid position-relative p-0" id="fe_h_welcome">
+    <div class="container d-md-block d-sm-none d-none">
+        <div class="row">
+            <div class="col-md-12 pt-2 pb-1 pb-1 d-flex justify-content-between align-items-center">
+                <p class="text-light main-font" style="font-size: 14px">
+                    Welcome to BẤT ĐỘNG SẢN TUẤN 123
+                </p>
+
+                <div class="main-font text-light sc-nw">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="menu_bottom">
+
+    <div id="menu_top" class="shadow-sm" style="">
         <div class="container">
-            <div class="col-md-12 p-0 text-center">
-                <ul class="main_menu">
-                    <li class="li-normal"><a href="{{URL::to('/')}}">Trang Chủ</a></li>
-                    <li class="li-normal"><a href="{{URL::to('/trang/gioi-thieu')}}">Giới Thiệu</a></li>
-                    <li class="has-item-down"><a href="#">Sản Phẩm</a>
-                        <ul class="sub_menu">
-                            {{--@foreach($listMenu['categoryMain'] as $key=>$item)--}}
-                                {{--<li><a href="{{URL::to('danh-muc/'.$item->path)}}">{{$item->name}}</a></li>--}}
-                            {{--@endforeach--}}
+            <div class="row">
+                <div class="col-md-12 d-lg-flex justify-content-lg-between">
+
+                    <div class="d-flex align-items-center">
+                        <img src="{{URL::asset('images/logo/cong-ty-bds-tuan-123.png')}}" alt=""
+                             class="logo-bdstuan123 align-self-center">
+                        <div class="main-font slogan-cty">
+                            <p class="pb-1" style="font-size: 22px">TUYỂN DỤNG NHÂN VIÊN BẤT ĐỘNG SẢN TUẤN 123</p>
+                            <span class="mr-3 text-danger fe-l-master-slogan">MÔI GIỚI BĐS - NGƯỜI BÁN HÀNG ĐỈNH CAO</span>
+                        </div>
+                    </div>
+
+                    <div class="main-font d-lg-flex d-md-none d-sm-none d-none align-self-center menu-content">
+                        <ul>
+                            <li><a class="{{ request()->is('/') ? 'active' : '/' }}" id="tl_tc"
+                                   href="{{URL::asset('')}}">TRANG CHỦ</a></li>
+                            <li><a class="{{ request()->is('gioi-thieu-tuan-123.html') ? 'active' : '' }}"
+                                   href="{{URL::asset('gioi-thieu-tuan-123.html')}}">GIỚI THIỆU</a></li>
+                            <li>
+                                <a class="{{ (request()->is('hoat-dong.html') || request()->is('hoat-dong/*')) ? 'active' : '' }}"
+                                   href="{{URL::asset('hoat-dong.html')}}">HOẠT ĐỘNG</a></li>
+                            <li>
+                                <a class="{{ (request()->is('tuyen-dung.html') || request()->is('tuyen-dung/*')) ? 'active' : '' }}"
+                                   href="{{URL::asset('tuyen-dung.html')}}">TUYỂN DỤNG</a></li>
+                            <li><a class="{{ request()->is('lien-he.html') ? 'active' : '' }}"
+                                   href="{{URL::asset('lien-he.html')}}">LIÊN HỆ</a></li>
                         </ul>
-                    </li>
-                    <li class="li-normal"><a href="{{URL::to('/bai-viet/cong-trinh-mau')}}">Công Trình Mẫu</a></li>
-                    <li class="li-normal"><a href="{{URL::to('/bai-viet/tu-van')}}">Tư Vấn</a></li>
-                    {{--<li class="li-normal"><a href="#">Menu 5</a></li>--}}
-                    <li class="li-normal"><a href="{{URL::to('/trang/lien-he')}}">Liên Hệ</a></li>
-                    <li style="padding: 0">
-                        <ul class="menu-search">
-                            <li class="li-search"><a href="#" id="clickSearch"><i class="fa fa-search"
-                                                                                  aria-hidden="true"></i></a>
-                            </li>
-                            <li class="li-search" style="width: 100%">
-                                {!! Form::open(array('route' => 'search','method'=>'POST','id'=>'formSearch')) !!}
-                                {!! Form::text('key-search', '', array('placeholder' => 'Tìm Kiếm','class' => 'form-control','id'=>'searchInput')) !!}
-                                {!! Form::close() !!}
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
