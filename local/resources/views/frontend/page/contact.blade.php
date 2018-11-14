@@ -118,7 +118,7 @@
                     <li><p><span class="text-primary"><i class="far fa-building"></i> HÀ NỘI:</span> Số 109 Trường Chinh, Đống Đa, Hà Nội.</li>
                     <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> PHẠM ANH TUÂN:</span>  0984 929 097 - 0908 074 446.</p></li>
                     <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> THU NHÀN:</span> 035 473 5562</p></li>
-                    <li><p><span class="text-primary"><i class="fas fa-phone-volume"></i> <i class="far fa-envelope"></i>:</span> thunhan260196@gmail.com</p></li>
+                    <li><p><span class="text-primary"> <i class="far fa-envelope"></i>:</span> thunhan260196@gmail.com</p></li>
                     {{--<li><p><span class="text-primary"><i class="far fa-envelope"></i> Email:<span> Congtycophantuan123@gmail.com</p></li>--}}
                 </ul>
             </div>

@@ -13,8 +13,11 @@
                             <div class="description">{{$item->description}}</div>
                         </div>
 
-                        <div class="card-footer p-2">
-                                <a href="{{URL::to('hoat-dong/'.$item->path)}}" class="btn-xemthem">XEM THÊM</a>
+                        <div class="card-footer p-2 text-center">
+                            <a href="{{URL::to('hoat-dong/'.$item->path)}}" class="btn-xemthem">XEM THÊM</a>
+                            <a class="btn-xemthem" target="_blank"
+                               href="https://docs.google.com/forms/d/1p4uWoNZubk1vqnXIJwHvk0dTx_N4WzZsim2Zrzzzvks/viewform?edit_requested=true">ỨNG
+                                TUYỂN</a>
                         </div>
                     </div>
                 </div>

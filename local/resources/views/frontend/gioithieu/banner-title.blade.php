@@ -1,10 +1,11 @@
+
 <style>
     div#fe_danhmuccv_banner {
         /*margin-top: 86px;*/
-        background-image: url('images/bg/bg8.jpg');
+        background-image: url('images/bg/about-us-bg.jpg');
         -webkit-background-size: cover;
         background-size: cover;
-        background-attachment: fixed;
+        /*background-attachment: fixed;*/
         background-position: center 10%;
     }
 
@@ -22,7 +23,7 @@
     }
 
     div#fe_danhmuccv_danhmucvitri h5, div#fe_danhmuccv_danhmucvitri h6 {
-        font-size: 22px;
+        font-size: 20px;
         font-family: 'Lalezar', cursive;
         padding-bottom: 10px;
     }
@@ -79,7 +80,7 @@
         color: white;
     }
 
-    #fe_dm_tthd .items-tthd{
+    #fe_dm_tthd .items-tthd {
         width: 100%;
         height: auto;
         /*background-color: #0d95e8;*/
@@ -88,32 +89,32 @@
         border-radius: 3px;
     }
 
-    #fe_dm_tthd .items-tthd p{
+    #fe_dm_tthd .items-tthd p {
         width: fit-content;
         position: absolute;
         top: 90%;
         left: 50%;
-        transform: translate(-50%,-90%);
+        transform: translate(-50%, -90%);
         color: white;
         font-family: 'Lalezar', cursive;
         text-shadow: 1px 1px 1px black;
         transition: .3s;
         max-width: 90%;
-        text-overflow:ellipsis ;
+        text-overflow: ellipsis;
     }
 
-    #fe_dm_tthd .items-tthd img{
+    #fe_dm_tthd .items-tthd img {
         width: 100%;
         height: auto;
         transition: .3s;
     }
 
-    #fe_dm_tthd .items-tthd:hover p{
+    #fe_dm_tthd .items-tthd:hover p {
         color: #0d95e8;
         text-shadow: 1px 1px 1px white;
     }
 
-    #fe_dm_tthd .items-tthd:hover img{
+    #fe_dm_tthd .items-tthd:hover img {
         transform: scale(1.3);
         -webkit-filter: blur(2px); /* Safari 6.0 - 9.0 */
         filter: blur(2px);
@@ -121,14 +122,13 @@
 
 </style>
 
-<div class="container-fluid main-font animated fadeIn" id="fe_danhmuccv_banner">
+<div class="container-fluid main-font animated fadeIn shadow-sm" id="fe_danhmuccv_banner">
     <div class="container">
         <div class="row">
             <div class="col-md-12 pt-5 pb-5">
-                <h5 class="pt-5">DANH MỤC TUYỂN DỤNG</h5>
-                <p class="pb-5">Danh mục các vị trí tuyển dụng của chúng tôi.</p>
+                <h5 class="pt-5">GIỚI THIỆU CÔNG TY</h5>
+                <p class="pb-5">MỘT SỐ HOẠT ĐỘNG VÀ THÔNG TIN CÔNG TY.</p>
             </div>
         </div>
     </div>
 </div>
-

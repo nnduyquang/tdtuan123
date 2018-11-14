@@ -94,7 +94,7 @@
                                             <a href="{{URL::asset('/tuyen-dung/'.$item->path)}}"
                                                class="text-center mr-1 btn-vitri"
                                                style="line-height: 20px">CHI TIẾT</a>
-                                            <a class=" btn-vitri" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG TUYỂN</a>
+                                            <a class=" btn-vitri" target="_blank" href="https://docs.google.com/forms/d/1p4uWoNZubk1vqnXIJwHvk0dTx_N4WzZsim2Zrzzzvks/viewform?edit_requested=true">ỨNG TUYỂN</a>
                                         </div>
                                     </div>
                                 </div>

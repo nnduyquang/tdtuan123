@@ -87,7 +87,7 @@
         <div class="phone_animation">
             <div class="phone_animation_circle"></div>
             <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+            <a href="tel:0354375562" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
                                                                                        aria-hidden="true"></i></a>
         </div>
     </div>
@@ -95,7 +95,7 @@
         <div class="phone_animation">
             <div class="phone_animation_circle"></div>
             <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+            <a href="tel:0354375562" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
                                                                                        aria-hidden="true"></i></a>
         </div>
     </div>
@@ -103,22 +103,22 @@
         <div class="phone_animation">
             <div class="phone_animation_circle"></div>
             <div class="phone_animation_circle_fill"></div>
-            <a href="tel:{{$dataPhone[0]}}" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
+            <a href="tel:0354375562" class="phone_animation_circle_fill_img"><i class="fas fa-phone"
                                                                                        aria-hidden="true"></i></a>
         </div>
     </div>
     <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:{{$dataPhone[0]}}" class="hotline-master"> 035 437 5562
+        <a href="tel:0354375562" class="hotline-master"> 035 437 5562
         </a>
     </div>
     <div class="apply-hot-mobile d-lg-none d-md-none">
         <a target="_blank"
-           href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG
+           href="https://docs.google.com/forms/d/1p4uWoNZubk1vqnXIJwHvk0dTx_N4WzZsim2Zrzzzvks/viewform?edit_requested=true">ỨNG
             TUYỂN NHANH</a>
     </div>
     <div class="apply-hot-desktop d-none d-md-block">
         <a target="_blank"
-           href="https://docs.google.com/forms/d/e/1FAIpQLSdJS1IdtV5DQTGe__1ErcjXRdLwkhOenv_x90FELiTHiRYaWw/viewform">ỨNG
+           href="https://docs.google.com/forms/d/1p4uWoNZubk1vqnXIJwHvk0dTx_N4WzZsim2Zrzzzvks/viewform?edit_requested=true">ỨNG
             TUYỂN NHANH</a>
     </div>
 </div>

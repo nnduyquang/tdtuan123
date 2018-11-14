@@ -1,6 +1,6 @@
 <style>
     div#fe_danhmuccv_banner {
-        margin-top: 86px;
+        /*margin-top: 86px;*/
         background-image: url('images/bg/77c1ae02f6eb17b54efa.jpg');
         -webkit-background-size: cover;
         background-size: cover;
