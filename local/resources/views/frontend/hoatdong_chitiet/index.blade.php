@@ -1,6 +1,6 @@
 @extends('frontend.layout.master')
 @section('title')
-    TUẤN 123 - HOẠT ĐỘNG CÔNG TY TUẤN 123
+    HOẠT ĐỘNG CÔNG TY TUẤN 123
 @stop
 @section('description')
     Trở thành một phần của BĐS Tuấn 123 để tận hưởng công việc theo cách của riêng bạn,

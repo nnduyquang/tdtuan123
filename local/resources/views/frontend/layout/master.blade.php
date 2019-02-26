@@ -108,7 +108,7 @@
         </div>
     </div>
     <div class="mess_desk_bot d-none d-md-block">
-        <a href="tel:0354375562" class="hotline-master"> 035 437 5562
+        <a href="tel:0984929097" class="hotline-master"> 0984 929 097
         </a>
     </div>
     <div class="apply-hot-mobile d-lg-none d-md-none">
